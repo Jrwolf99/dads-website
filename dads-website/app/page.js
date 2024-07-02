@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-50 dark:bg-gray-900">
       <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100">Dad's Music (just a template for now)</h1>
+        <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100">Dads Music (just a template for now)</h1>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Welcome to my portfolio website. Here you can find my projects and contact information.</p>
       </header>
       
