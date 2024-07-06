@@ -1,14 +1,20 @@
 import React from 'react';
+import ImageWithPulse from './ImageWithPulse';
 
 export default function EventCard({ event }) {
   return (
-    <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden m-4 flex flex-col md:flex-row border">
-      <img
+    <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden m-4 flex flex-col xl:flex-row border">
+      {/* <img
         src={event.titleImage}
         alt={event.title}
-        className="w-full h-48 object-cover md:w-1/2 md:h-auto"
+        className="w-full h-48 object-cover xl:w-1/2 xl:h-auto"
+      /> */}
+      <ImageWithPulse
+        src={event.titleImage}
+        alt={event.title}
+        className="w-full object-cover xl:w-1/2 h-48 xl:h-auto"
       />
-      <div className="p-4 md:w-1/2">
+      <div className="p-4 xl:w-1/2">
         <h2 className="text-xl font-bold dark:text-gray-200">{event.title}</h2>
         <p className="text-gray-600 dark:text-gray-400">
           {event.date} at {event.time}

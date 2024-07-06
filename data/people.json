@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Donna Wolf",
+    "image": "/images/donna-wolf.jpg",
+    "sub_desc": "Faith, Family, Friend, Violinist, Fiddler, Musician, Mother, Love of Bill’s Life."
+  },
+  {
+    "name": "Shannon Freeman",
+    "image": "/images/shannon-freeman.jpg",
+    "sub_desc": "Faith, Family, Farmer, Father, Friend and Mostly Fearless. Vocalist, Musician."
+  },
+  {
+    "name": "Bill Wolf",
+    "image": "/images/bill-wolf.jpg",
+    "sub_desc": "Faith, Family, Friend, Dad, Husband, Inspired by Tank (as seen here) Rookie Writer."
+  },
+  {
+    "name": "Sam Freeman",
+    "image": "/images/sam-freeman.jpg",
+    "sub_desc": "Faith, Family, Friend, Son, Songwriter. A Very Talented Young Man."
+  }
+]
