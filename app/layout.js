@@ -8,8 +8,8 @@ import { headers } from 'next/headers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'GW Designs',
-  description: 'GW Designs provides web design and development services.',
+  title: 'Wolf Song Writing',
+  description: 'A website for Writing and Sharing Music',
 };
 
 export default function RootLayout({ children }) {
