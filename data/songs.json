@@ -6,23 +6,21 @@
     "identifier": "wall-of-stone",
     "lyrics": "The Time Had Come… My Heart Was Numb.\nOne Deep Sigh… The Long Good-Bye.\nWe Stood Tall… Children and All.\nHeads bowed In Awe… For God's Last Call.\nSoldiers in Line… It's Almost Time.\nPride in Chest… At Parade Rest.\nNow We Stand… And Hear the Command.\nTwo in Stride… Not Their First Time.\nA Flag they Hold… Corner to Corner\n13 Folds… In Your Honor.\nThe Soldier Finds His Next in Line.\nTears Now Climb… Can't Stop Time.\n5 Rifles High. Into the Sky.\n3 Shots Fired. 15 Retired.\nShells to the Ground. Makes a Sound.\nI Now hold… Deep Deep Down.\n15 Shells and a Wall Of Stone. Locked inside but Not Alone.\nShells to the Ground. Now A Sound. That I Hold Dear… Deep Deep Down.\nBridge\nLast In the Row… A Bugle Blows.\nTaps an Echo… Tears Now Flow.\nAll is Silent… We Stand Alone.\nNot your Home… This Tall Wall of Stone.\nIt's Later Now… Hard to Believe.\nFew Know How… These Shells Remind Me.\nI am your Son… and Proud To Be.\nI am your Son… Yeah This is Me.",
     "audio": "/music/wall-of-stone.mp3",
-    "people": ["TEST", "PLACEHODLER", "Bill Wolf"],
-    "artists": [
+    "people": [
       {
-        "name": "TEST",
-        "role": "TEST"
+        "name": "Shannon Freeman",
+        "role": "Vocals"
       },
       {
-        "name": "PLACEHOLDER",
-        "role": "PLACEHOLDER"
-      }
-    ],
-    "authors": [
+        "name": "Donna Wolf",
+        "role": "Violin"
+      },
       {
-        "name": "Bill Wolf"
+        "name": "Bill Wolf",
+        "role": "Lyrics"
       }
     ],
-    "bio": "sample bio that can be long or short and can contain any information about the artist or the song"
+    "bio": "Respect - Love of Parents\nA Final Celebration"
   },
 
   {
@@ -32,8 +30,7 @@
     "identifier": "chains",
     "lyrics": "\n In 1831… Under A Hot Sun.\nSugar And Slaves… Were Bound As One.\nIt Was Always Known… Not To Be Undone.\nOwned by A Thrown… And Ruled By A Gun.\nBut In Old St James… On a Cold Christmas Day.\nThis would Change… In Every Way.\n\n**Chorus** \n*To the Souls… Who Fought & Prayed.*\n*You Broke These Old Chains… On that Day.*\n\n Led By a Cross… The Slaves without A Cost.\nArmed with Rage… They Rose Up Day.\nThey Set Fires Ablaze… For Each To Say.\nBe On your Way… Be Free This Day.\nFor 11 Days… They All Defied.\nThen they Paid… With 500 Lives.\n\n**Chorus** \n*To the Souls… Who Fought & Prayed.*\n*You Broke These Old Chains… On that Day.*\n\n**Bridge**\nAnd Their Leader… A Baptist Preacher.\nOn That Day… Was Hung… in Montego Bay.\n\n**Chorus** \n *To the Souls… Who Fought & Prayed.*\n*You Broke These Old Chains… On that Day.*\n\nWe Know Today… This Was Not In Silent Pain.\nYou Did Not Die… Did Not Die in Vain.\nBy 1834… A New Law Was Made.\nThere will be no more… Chains in St James.\nNo more… No More Chains in St James.",
     "audio": "/music/chains.mp3",
-    "people": ["Bill Wolf", "Shannon Freeman", "Donna Wolf"],
-    "artists": [
+    "people": [
       {
         "name": "Shannon Freeman",
         "role": "Vocals"
@@ -41,13 +38,12 @@
       {
         "name": "Donna Wolf",
         "role": "Violin"
-      }
-    ],
-    "authors": [
+      },
       {
-        "name": "Bill Wolf"
+        "name": "Bill Wolf",
+        "role": "Lyrics"
       }
     ],
-    "bio": "sample bio that can be long or short and can contain any information about the artist or the song"
+    "bio": "Baptist War of 1831"
   }
 ]

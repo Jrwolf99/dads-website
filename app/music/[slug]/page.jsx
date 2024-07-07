@@ -54,8 +54,8 @@ export default function Page({ params }) {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-800 flex flex-col items-center p-4">
-      <div className="w-full flex flex-col md:flex-row items-start justify-start">
+    <div className="min-h-screen bg-white dark:bg-gray-800 flex flex-col items-center justify-center p-4">
+      <div className="text-center md:text-left w-full flex flex-col md:flex-row items-center justify-center">
         <img
           src={song.titleImage}
           alt={song.title}
@@ -69,25 +69,25 @@ export default function Page({ params }) {
             <h2 className="text-xl text-gray-700 dark:text-gray-400">
               by{' '}
               {song.people.map((person, index) => (
-                <span key={index}>
-                  {person}
+                <span key={person.name}>
+                  {person.name}
                   {index < song.people.length - 1 ? ', ' : ''}
                 </span>
               ))}
             </h2>
           </div>
-          <audio controls className="w-full" controlsList="nodownload">
+          <audio controls className="w-full">
             <source src={song.audio} type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
           <div>
-            <h3 className="text-lg font-semibold mb-2 dark:text-gray-200">
-              Artists
-            </h3>
+            {/* <h3 className="text-lg font-semibold mb-2 dark:text-gray-200">
+              Contributors
+            </h3> */}
             <ul className="list-disc list-inside dark:text-gray-400">
-              {song.artists.map((artist, index) => (
+              {song.people.map((person, index) => (
                 <li key={index}>
-                  {artist.name} - {artist.role}
+                  {person.name} ({person.role})
                 </li>
               ))}
             </ul>
@@ -96,7 +96,7 @@ export default function Page({ params }) {
             <h3 className="text-lg font-semibold mb-2 dark:text-gray-200">
               Bio
             </h3>
-            <p className="ml-4 dark:text-gray-400">{song.bio}</p>
+            <p className=" dark:text-gray-400">{song.bio}</p>
           </div>
         </div>
       </div>

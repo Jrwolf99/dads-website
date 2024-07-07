@@ -1,22 +1,54 @@
 [
   {
     "name": "Donna Wolf",
-    "image": "/images/donna-wolf.jpg",
-    "sub_desc": "Faith, Family, Friend, Violinist, Fiddler, Musician, Mother, Love of Bill’s Life."
+    "role": "Violinist",
+    "image": "/images/mom.jpg",
+    "sub_desc": "Faith, Family, Friend, Violinist, Fiddler, Musician, Mother, Love of Bill’s Life.",
+    "links": [
+      {
+        "name": "Facebook",
+        "icon": "/icons/facebook.svg",
+        "url": "https://www.facebook.com/southernfiddler"
+      },
+      {
+        "name": "Website",
+        "icon": "/icons/website.svg",
+        "url": "https://donnawolfviolin.com/"
+      }
+    ]
   },
   {
     "name": "Shannon Freeman",
-    "image": "/images/shannon-freeman.jpg",
-    "sub_desc": "Faith, Family, Farmer, Father, Friend and Mostly Fearless. Vocalist, Musician."
+    "role": "Vocalist & Musician",
+    "image": "/images/shannon.jpg",
+    "sub_desc": "Faith, Family, Farmer, Father, Friend and Mostly Fearless. Vocalist, Musician.",
+    "links": []
   },
   {
     "name": "Bill Wolf",
-    "image": "/images/bill-wolf.jpg",
-    "sub_desc": "Faith, Family, Friend, Dad, Husband, Inspired by Tank (as seen here) Rookie Writer."
+    "role": "Lyricist",
+    "image": "/images/tank.jpg",
+    "sub_desc": "Faith, Family, Friend, Dad, Husband, Inspired by Tank (as seen here) Rookie Writer.",
+    "links": []
   },
   {
     "name": "Sam Freeman",
-    "image": "/images/sam-freeman.jpg",
-    "sub_desc": "Faith, Family, Friend, Son, Songwriter. A Very Talented Young Man."
+    "role": "Coming Soon",
+    "image": "/images/sam.jpg",
+    "sub_desc": "Faith, Family, Friend, Son, Songwriter. A Very Talented Young Man.",
+    "links": []
+  },
+  {
+    "name": "Farmhouse",
+    "role": "Recording Studio",
+    "image": "/images/farmhouse.jpg",
+    "sub_desc": null,
+    "links": [
+      {
+        "name": "Website",
+        "icon": "/icons/website.svg",
+        "url": "https://farmhouserecordingstudio.com/home"
+      }
+    ]
   }
 ]

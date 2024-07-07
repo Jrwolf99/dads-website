@@ -7,7 +7,7 @@ export default function AboutUsPage() {
     <div>
       <h1 className="text-4xl font-bold text-center pt-10 pb-8">About Us</h1>
 
-      <div className="container mx-auto p-4">
+      <div className="flex flex-wrap mx-auto gap-4 justify-center items-start">
         {people.map((person, index) => (
           <PersonCard key={index} person={person} />
         ))}
