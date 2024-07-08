@@ -14,10 +14,6 @@ export default function Home() {
           Our music, as of today...
         </p>
 
-        <h2 className="text-2xl md:text-[36px] font-bold text-center pt-10">
-          Check Out Our Music
-        </h2>
-
         <div className="w-full p-4 flex flex-col gap-4 justify-center items-center max-w-4xl">
           {songs.map((song) => (
             <Link
