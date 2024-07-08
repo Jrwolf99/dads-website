@@ -14,6 +14,11 @@
         "name": "Website",
         "icon": "/icons/website.svg",
         "url": "https://donnawolfviolin.com/"
+      },
+      {
+        "name": "ReverbNation",
+        "icon": "/icons/star.svg",
+        "url": "https://www.reverbnation.com/donnawolf"
       }
     ]
   },
@@ -22,7 +27,13 @@
     "role": "Vocalist & Musician",
     "image": "/images/shannon.jpg",
     "sub_desc": "Faith, Family, Farmer, Father, Friend and Mostly Fearless. Vocalist, Musician.",
-    "links": []
+    "links": [
+      {
+        "name": "Email",
+        "icon": "/icons/email.svg",
+        "url": "mailto:gsfreeman75@gmail.com"
+      }
+    ]
   },
   {
     "name": "Bill Wolf",
@@ -36,7 +47,13 @@
     "role": null,
     "image": "/images/sam.jpg",
     "sub_desc": "Faith, Family, Friend, Son, Songwriter. A Very Talented Young Man.",
-    "links": []
+    "links": [
+      {
+        "name": "YouTube",
+        "icon": "/icons/youtube.svg",
+        "url": "https://www.youtube.com/channel/UCEuNo-SCN8_AUIBPUlspX7A"
+      }
+    ]
   },
   {
     "name": "Farmhouse",
@@ -48,7 +65,18 @@
         "name": "Website",
         "icon": "/icons/website.svg",
         "url": "https://farmhouserecordingstudio.com/home"
+      },
+      {
+        "name": "Facebook",
+        "icon": "/icons/facebook.svg",
+        "url": "https://www.facebook.com/FarmhouseRecordingStudio"
+      },
+      {
+        "name": "Instagram",
+        "icon": "/icons/instagram.svg",
+        "url": "https://www.instagram.com/farmhouse_rec_studio/"
       }
     ]
+
   }
 ]
