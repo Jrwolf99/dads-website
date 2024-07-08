@@ -95,7 +95,7 @@ export default function Page({ params }) {
             rel="noopener noreferrer"
             className="text-sm text-gray-700 dark:text-gray-400 underline"
           >
-            Enjoy the music? Leave a review and share on facebook!
+            If you liked this, please leave us some feedback!
           </a>
         </div>
       </div>

@@ -12,7 +12,8 @@ export default function EventCard({ event }) {
       <ImageWithPulse
         src={event.titleImage}
         alt={event.title}
-        className="w-full object-cover xl:w-1/2 h-48 xl:h-auto"
+        imageClasses={'object-cover'}
+        className="w-full xl:w-1/2 h-48 xl:h-auto"
       />
       <div className="p-4 xl:w-1/2">
         <h2 className="text-xl font-bold dark:text-gray-200">{event.title}</h2>

@@ -7,7 +7,8 @@ export default function SongCard({ song }) {
       <ImageWithPulse
         src={song.titleImage}
         alt={song.title}
-        className="w-full h-[400px] md:h-64 md:w-1/3"
+        imageClasses="object-cover w-full h-full"
+        className="w-full md:w-2/5 aspect-square"
       />
       <div className="p-4 md:w-2/3 flex flex-col gap-4">
         <h2 className="text-2xl font-bold dark:text-gray-200">{song.title}</h2>

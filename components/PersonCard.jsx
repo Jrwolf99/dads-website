@@ -7,6 +7,7 @@ export default function PersonCard({ person }) {
       <ImageWithPulse
         src={person.image}
         alt={person.name}
+        imageClasses={'object-cover'}
         className="w-full h-48"
       />
       <div className="p-4 w-full">
