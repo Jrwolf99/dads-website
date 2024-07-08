@@ -6,13 +6,12 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-start">
       <h1 className="text-4xl md:text-[64px] font-bold text-center px-4 md:px-16 pt-16 pb-10 md:leading-[60px]">
-        Wolf Song Writing
+        Welcome to Wolf <br /> Songwriting
       </h1>
 
       <div className="flex flex-col gap-6 md:gap-10 text-center items-center justify-start w-full px-4 md:px-0">
         <p className="text-lg md:text-[24px] w-full my-2 text-gray-700 dark:text-gray-400">
-          Welcome to Wolf Song Writing, a site dedicated to songwriting and
-          music.
+          Our music, as of today...
         </p>
 
         <h2 className="text-2xl md:text-[36px] font-bold text-center pt-10">

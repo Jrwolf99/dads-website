@@ -36,7 +36,7 @@ export default function NavBar() {
         </div>
       </div>
       <ul
-        className={`flex flex-col sm:flex-row justify-center items-center p-2 gap-4 sm:gap-0 transition-all duration-300 ease-in-out ${
+        className={`flex flex-col sm:flex-row sm:gap-5 justify-center items-center p-2 gap-4 sm:gap-0 transition-all duration-300 ease-in-out ${
           isOpen ? 'block' : 'hidden'
         } sm:flex`}
       >

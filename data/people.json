@@ -33,14 +33,14 @@
   },
   {
     "name": "Sam Freeman",
-    "role": "Coming Soon",
+    "role": null,
     "image": "/images/sam.jpg",
     "sub_desc": "Faith, Family, Friend, Son, Songwriter. A Very Talented Young Man.",
     "links": []
   },
   {
     "name": "Farmhouse",
-    "role": "Recording Studio",
+    "role": "Best Recording Studio Ever",
     "image": "/images/farmhouse.jpg",
     "sub_desc": null,
     "links": [

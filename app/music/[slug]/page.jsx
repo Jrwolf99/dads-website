@@ -92,12 +92,6 @@ export default function Page({ params }) {
               ))}
             </ul>
           </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-2 dark:text-gray-200">
-              Bio
-            </h3>
-            <p className=" dark:text-gray-400">{song.bio}</p>
-          </div>
         </div>
       </div>
       <div className="w-full mt-8 mx-auto text-center">
