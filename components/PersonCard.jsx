@@ -25,7 +25,7 @@ export default function PersonCard({ person }) {
               <img
                 src={link.icon}
                 alt={link.name}
-                className="w-6 h-6 inline-block"
+                className="w-6 h-6 inline-block dark:invert"
               />
             </a>
           ))}

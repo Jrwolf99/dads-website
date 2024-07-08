@@ -1,6 +1,7 @@
 [
   {
     "name": "Donna Wolf",
+    "category": "member",
     "role": "Violinist",
     "image": "/images/mom.jpg",
     "sub_desc": "Faith, Family, Friend, Violinist, Fiddler, Musician, Mother, Love of Bill’s Life.",
@@ -24,6 +25,7 @@
   },
   {
     "name": "Shannon Freeman",
+    "category": "member",
     "role": "Vocalist & Musician",
     "image": "/images/shannon.jpg",
     "sub_desc": "Faith, Family, Farmer, Father, Friend and Mostly Fearless. Vocalist, Musician.",
@@ -37,6 +39,7 @@
   },
   {
     "name": "Bill Wolf",
+    "category": "member",
     "role": "Lyricist",
     "image": "/images/tank.jpg",
     "sub_desc": "Faith, Family, Friend, Dad, Husband, Inspired by Tank (as seen here) Rookie Writer.",
@@ -44,6 +47,7 @@
   },
   {
     "name": "Sam Freeman",
+    "category": "coming_soon",
     "role": null,
     "image": "/images/sam.jpg",
     "sub_desc": "Faith, Family, Friend, Son, Songwriter. A Very Talented Young Man.",
@@ -57,6 +61,7 @@
   },
   {
     "name": "Farmhouse",
+    "category": "partner",
     "role": "Best Recording Studio Ever",
     "image": "/images/farmhouse.jpg",
     "sub_desc": null,
@@ -77,6 +82,5 @@
         "url": "https://www.instagram.com/farmhouse_rec_studio/"
       }
     ]
-
   }
 ]
