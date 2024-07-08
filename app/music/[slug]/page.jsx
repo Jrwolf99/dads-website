@@ -93,7 +93,7 @@ export default function Page({ params }) {
       </div>
       <div className="w-full my-12 mx-auto text-center">
         <h3 className="text-2xl font-semibold dark:text-gray-200">Lyrics</h3>
-        <p className="whitespace-pre-line ml-4 dark:text-gray-400">
+        <p className="whitespace-pre-line dark:text-gray-400">
           {parseLyrics(song.lyrics)}
         </p>
       </div>
