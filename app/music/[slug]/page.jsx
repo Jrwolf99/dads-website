@@ -55,7 +55,7 @@ export default function Page({ params }) {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-800 flex flex-col items-center justify-center p-4">
-      <div className="text-center md:text-left w-full flex flex-col md:flex-row items-center justify-center">
+      <div className="text-center md:text-left w-full flex flex-col md:flex-row items-start justify-center">
         <img
           src={song.titleImage}
           alt={song.title}
@@ -81,9 +81,6 @@ export default function Page({ params }) {
             Your browser does not support the audio element.
           </audio>
           <div>
-            {/* <h3 className="text-lg font-semibold mb-2 dark:text-gray-200">
-              Contributors
-            </h3> */}
             <ul className="list-disc list-inside dark:text-gray-400">
               {song.people.map((person, index) => (
                 <li key={index}>
@@ -94,7 +91,7 @@ export default function Page({ params }) {
           </div>
         </div>
       </div>
-      <div className="w-full mt-8 mx-auto text-center">
+      <div className="w-full my-12 mx-auto text-center">
         <h3 className="text-2xl font-semibold dark:text-gray-200">Lyrics</h3>
         <p className="whitespace-pre-line ml-4 dark:text-gray-400">
           {parseLyrics(song.lyrics)}
