@@ -90,7 +90,7 @@ export default function Page({ params }) {
             </ul>
           </div>
           <a
-            href="https://www.facebook.com/profile.php?id=61562133873576&sk=reviews"
+            href="https://www.facebook.com/songwritingwolf/reviews"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-700 dark:text-gray-400 underline"
