@@ -55,7 +55,7 @@ export default function Page({ params }) {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-800 flex flex-col items-center justify-center p-4">
-      <div className="text-center md:text-left w-full flex flex-col md:flex-row items-start justify-center">
+      <div className="text-center md:text-left w-full flex flex-col items-center md:flex-row md:items-start justify-center">
         <img
           src={song.titleImage}
           alt={song.title}
@@ -89,6 +89,14 @@ export default function Page({ params }) {
               ))}
             </ul>
           </div>
+          <a
+            href="https://www.facebook.com/profile.php?id=61562133873576&sk=reviews"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-gray-700 dark:text-gray-400 underline"
+          >
+            Enjoy the music? Leave a review and share on facebook!
+          </a>
         </div>
       </div>
       <div className="w-full my-12 mx-auto text-center">
