@@ -3,16 +3,27 @@ import { MusicalNoteIcon } from '@heroicons/react/24/solid';
 import { useTheme } from 'next-themes';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useRef, useState } from 'react';
-import { FacebookProvider, Like } from 'react-facebook';
+import { FacebookProvider, Like, ShareButton } from 'react-facebook';
 
 export default function SampleButton() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef();
   const fullPath = usePathname();
 
-  const { theme, setTheme } = useTheme();
-
   const hideComponent = fullPath.includes('music') && fullPath !== '/music';
+
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsSmallScreen(window.innerWidth < 800);
+    };
+
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
 
   useEffect(() => {
     if (isPlaying && audioRef.current) {
@@ -26,17 +37,28 @@ export default function SampleButton() {
 
   return (
     <div
-      className="fixed bottom-5 w-full flex flex-row flex-wrap gap-2 justify-center md:justify-between items-end md:pr-4"
+      className="fixed bottom-5 w-full flex flex-row flex-wrap gap-2 justify-center md:justify-between items-end md:px-4"
       style={{ zIndex: 100 }}
     >
-      <FacebookProvider appId="2252397071767122">
-        <Like
+      {!isSmallScreen ? (
+        <FacebookProvider appId="2252397071767122">
+          <ShareButton
+            href="http://www.facebook.com/songwritingwolf"
+            className="bg-blue-500 text-white p-2 rounded-full text-sm shadow-sm border border-blue-700"
+          >
+            Like us on Facebook
+          </ShareButton>
+        </FacebookProvider>
+      ) : (
+        <a
           href="https://www.facebook.com/songwritingwolf"
-          showFaces
-          colorScheme="light"
-          layout="button_count"
-        />
-      </FacebookProvider>
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 text-white p-2 rounded-full text-sm shadow-sm border border-blue-700"
+        >
+          Like us on Facebook
+        </a>
+      )}
       <button
         type="button"
         onClick={() => setIsPlaying(!isPlaying)}
