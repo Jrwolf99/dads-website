@@ -44,7 +44,7 @@ export default function SampleButton() {
         <FacebookProvider appId="2252397071767122">
           <ShareButton
             href="http://www.facebook.com/songwritingwolf"
-            className="bg-blue-500 text-white p-2 rounded-full text-sm shadow-sm border border-blue-700"
+            className="bg-blue-500 text-white p-2 rounded-full text-sm shadow-sm border border-blue-700 hover:bg-blue-600"
           >
             Like us on Facebook
           </ShareButton>
@@ -54,7 +54,7 @@ export default function SampleButton() {
           href="https://www.facebook.com/songwritingwolf"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-500 text-white p-2 rounded-full text-sm shadow-sm border border-blue-700"
+          className="bg-blue-500 text-white p-2 rounded-full text-sm shadow-sm border border-blue-700 hover:bg-blue-600"
         >
           Like us on Facebook
         </a>
