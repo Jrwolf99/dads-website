@@ -52,7 +52,7 @@ export default function SampleButton() {
               </div>
             </div>
 
-            <div className="flex md:hidden items-center justify-center gap-2 dark:text-gray-200 bg-green-200">
+            <div className="flex md:hidden items-center justify-center gap-2 dark:text-gray-200">
               <div className="text-gray-700 p-2 bg-gray-100 group-hover:bg-gray-200 dark:bg-gray-700 dark:group-hover:bg-gray-600 rounded-full">
                 Listen to a sample?
               </div>
