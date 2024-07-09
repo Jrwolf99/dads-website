@@ -1,6 +1,6 @@
-import SongCard from '@/components/SongCard';
 import fs from 'fs';
 import path from 'path';
+import Share from './Share';
 
 const getSongs = (songIdentifier = null) => {
   const filePath = path.join(process.cwd(), 'data', 'songs.json');
@@ -28,7 +28,6 @@ export default function Page({ params }) {
   const { slug } = params;
 
   const song = getSongs(slug);
-
 
   const parseLyrics = (lyrics) => {
     const parts = lyrics
@@ -89,14 +88,7 @@ export default function Page({ params }) {
               ))}
             </ul>
           </div>
-          <a
-            href="https://www.facebook.com/songwritingwolf/reviews"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-gray-700 dark:text-gray-400 underline"
-          >
-            If you liked this, please leave us some feedback!
-          </a>
+          <Share />
         </div>
       </div>
       <div className="w-full my-12 mx-auto text-center">
