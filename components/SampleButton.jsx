@@ -9,9 +9,6 @@ export default function SampleButton() {
   const audioRef = useRef();
   const fullPath = usePathname();
 
-  // get dark mode status
-  const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
   const hideComponent = fullPath.includes('music') && fullPath !== '/music';
 
   useEffect(() => {
@@ -32,7 +29,6 @@ export default function SampleButton() {
       <FacebookProvider appId="2252397071767122">
         <Like
           href="https://www.facebook.com/songwritingwolf"
-          colorScheme={darkMode ? 'dark' : 'light'}
           showFaces
           share
           layout="button_count"
