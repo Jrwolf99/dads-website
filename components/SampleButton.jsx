@@ -1,5 +1,6 @@
 'use client';
 import { MusicalNoteIcon } from '@heroicons/react/24/solid';
+import { useTheme } from 'next-themes';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useRef, useState } from 'react';
 import { FacebookProvider, Like } from 'react-facebook';
@@ -8,6 +9,8 @@ export default function SampleButton() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef();
   const fullPath = usePathname();
+
+  const { theme, setTheme } = useTheme();
 
   const hideComponent = fullPath.includes('music') && fullPath !== '/music';
 
@@ -23,14 +26,14 @@ export default function SampleButton() {
 
   return (
     <div
-      className="fixed bottom-5 w-full flex flex-row flex-wrap justify-center md:justify-between items-end md:pr-4"
+      className="fixed bottom-5 w-full flex flex-row flex-wrap gap-2 justify-center md:justify-between items-end md:pr-4"
       style={{ zIndex: 100 }}
     >
       <FacebookProvider appId="2252397071767122">
         <Like
           href="https://www.facebook.com/songwritingwolf"
           showFaces
-          share
+          colorScheme="light"
           layout="button_count"
         />
       </FacebookProvider>
@@ -52,8 +55,8 @@ export default function SampleButton() {
               </div>
             </div>
 
-            <div className="flex md:hidden items-center justify-center gap-2 dark:text-gray-200">
-              <div className="text-gray-700 p-2 bg-gray-100 group-hover:bg-gray-200 dark:bg-gray-700 dark:group-hover:bg-gray-600 rounded-full">
+            <div className="flex md:hidden items-center justify-center gap-2">
+              <div className="text-gray-500 dark:text-gray-200 p-2 bg-gray-100 group-hover:bg-gray-200 dark:bg-gray-700 dark:group-hover:bg-gray-600 rounded-full">
                 Listen to a sample?
               </div>
             </div>
