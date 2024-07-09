@@ -88,7 +88,7 @@ export default function Page({ params }) {
               ))}
             </ul>
           </div>
-          <Share />
+          <Share shareLink={song.shareLink} />
         </div>
       </div>
       <div className="w-full my-12 mx-auto text-center">
