@@ -1,9 +1,8 @@
 'use client';
 import { MusicalNoteIcon } from '@heroicons/react/24/solid';
-import { useTheme } from 'next-themes';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useRef, useState } from 'react';
-import { FacebookProvider, Like, ShareButton } from 'react-facebook';
+import { FacebookProvider, ShareButton } from 'react-facebook';
 
 export default function SampleButton() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -16,7 +15,7 @@ export default function SampleButton() {
 
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsSmallScreen(window.innerWidth < 800);
+      setIsSmallScreen(window.innerWidth < 700);
     };
 
     checkScreenSize();
@@ -46,7 +45,11 @@ export default function SampleButton() {
             href="http://www.facebook.com/songwritingwolf"
             className="bg-blue-500 text-white p-2 rounded-full text-sm shadow-sm border border-blue-700 hover:bg-blue-600"
           >
-            Like us on Facebook
+            <img
+              src="icons/facebook.svg"
+              alt="Facebook Icon"
+              className="h-8 w-8 invert"
+            />
           </ShareButton>
         </FacebookProvider>
       ) : (
@@ -54,9 +57,9 @@ export default function SampleButton() {
           href="https://www.facebook.com/songwritingwolf"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-500 text-white p-2 rounded-full text-sm shadow-sm border border-blue-700 hover:bg-blue-600"
+          className="bg-blue-500/40 text-white text-[12px] p-2 rounded-full  shadow-sm border border-blue-700 hover:bg-blue-600/80 font-bold"
         >
-          Like us on Facebook
+          Like Us on Facebook
         </a>
       )}
       <button
