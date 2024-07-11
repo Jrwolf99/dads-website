@@ -3,6 +3,7 @@ import './globals.css';
 import { ThemeProvider } from './theme-provider';
 import NavBar from './NavBar';
 import SampleButton from '@/components/SampleButton';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 const inter = Inter({ subsets: ['latin'] });
 
