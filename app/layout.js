@@ -3,7 +3,6 @@ import './globals.css';
 import { ThemeProvider } from './theme-provider';
 import NavBar from './NavBar';
 import SampleButton from '@/components/SampleButton';
-import { headers } from 'next/headers';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,6 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <GoogleAnalytics />
       <ThemeProvider
         attribute="class"
         defaultTheme="system"
