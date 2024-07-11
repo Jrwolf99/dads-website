@@ -1,38 +1,26 @@
-// components/GoogleAnalytics.js
-
 'use client';
-
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import ReactGA from 'react-ga4';
-
-const GA_TRACKING_ID = 'G-65MT5S9JLB';
+import Script from 'next/script';
 
 const GoogleAnalytics = () => {
-  const router = useRouter();
+  const GA_TRACKING_ID = 'G-65MT5S9JLB';
 
-  useEffect(() => {
-    // Initialize Google Analytics
-    ReactGA.initialize(GA_TRACKING_ID);
-    console.log('Google Analytics initialized');
+  return (
+    <>
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+        window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-    // Track initial page load
-    ReactGA.send('pageview');
-    console.log('Initial pageview sent');
-
-    // Track page views on route changes
-    const handleRouteChange = (url) => {
-      ReactGA.send('pageview');
-      console.log(`Pageview sent for ${url}`);
-    };
-
-    router.events.on('routeChangeComplete', handleRouteChange);
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    };
-  }, [router.events]);
-
-  return null;
+          gtag('config', ${GA_TRACKING_ID});
+        `}
+      </Script>
+    </>
+  );
 };
 
 export default GoogleAnalytics;
