@@ -3,6 +3,7 @@ import { MusicalNoteIcon } from '@heroicons/react/24/solid';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useRef, useState } from 'react';
 import { FacebookProvider, ShareButton } from 'react-facebook';
+import AudioPlay from './AudioPlay';
 
 export default function SampleButton() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -65,7 +66,7 @@ export default function SampleButton() {
       <button
         type="button"
         onClick={() => setIsPlaying(!isPlaying)}
-        className="group w-full flex items-end justify-center md:justify-end rounded md:w-[400px]"
+        className="group w-full flex items-end justify-center md:justify-end rounded md:max-w-[460px]"
       >
         {' '}
         {!isPlaying && (
@@ -88,10 +89,13 @@ export default function SampleButton() {
           </>
         )}
         {isPlaying && (
-          <audio ref={audioRef} controls>
-            <source src="/music/wall-of-stone.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-          </audio>
+          <AudioPlay
+            ref={audioRef}
+            src="/music/wall-of-stone.mp3"
+            type="audio/mpeg"
+            className="w-full"
+            controls
+          />
         )}
       </button>
       {/* Enjoy our music? Like our page on facebook */}
