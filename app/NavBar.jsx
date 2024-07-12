@@ -4,9 +4,12 @@ import { Button } from '@/components/ui/button';
 import React, { useState } from 'react';
 import ThemeButton from './ThemeButton';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const path = usePathname();
 
   const menuBarStyles =
     'block w-full h-[2.5px] rounded-full bg-black dark:bg-white transition-all duration-300 ease-in-out';
@@ -42,7 +45,12 @@ export default function NavBar() {
       >
         <li>
           <Link href="/">
-            <Button onClick={() => setIsOpen(false)} variant="outline">
+            <Button
+              onClick={() => setIsOpen(false)}
+              variant={
+                path.includes('music') || path === '/' ? 'outline' : 'ghost'
+              }
+            >
               Music
             </Button>
           </Link>
@@ -56,7 +64,10 @@ export default function NavBar() {
         </li> */}
         <li>
           <Link href="/about-us">
-            <Button onClick={() => setIsOpen(false)} variant="ghost">
+            <Button
+              onClick={() => setIsOpen(false)}
+              variant={path.includes('about-us') ? 'outline' : 'ghost'}
+            >
               About Us
             </Button>
           </Link>
