@@ -58,7 +58,7 @@ const AudioPlay = forwardRef(
           href={src}
           download
           alt={`Download ${song.title}`}
-          className=" text-center w-[150px] h-12 px-4 bg-blue-100/50 text-blue-500 dark:text-blue-400 text-xs flex items-center gap-2 hover:bg-blue-100 dark:hover:bg-blue-900 rounded-full"
+          className="text-center w-[150px] h-12 px-4 bg-blue-100/50 text-blue-500 dark:bg-gray-800 dark:text-blue-400 text-xs flex items-center gap-2 hover:bg-blue-100 dark:hover:bg-blue-700 rounded-full"
           onClick={handleDownload}
         >
           Download MP3
