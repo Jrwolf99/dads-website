@@ -66,7 +66,7 @@ export default function SampleButton() {
       <button
         type="button"
         onClick={() => setIsPlaying(!isPlaying)}
-        className="group w-full flex items-end justify-center md:justify-end rounded md:max-w-[460px]"
+        className="group w-full items-end justify-center md:justify-end rounded md:max-w-[460px] hidden"
       >
         {' '}
         {!isPlaying && (
