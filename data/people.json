@@ -43,7 +43,13 @@
     "role": "Lyricist",
     "image": "/images/tank.jpg",
     "sub_desc": "Faith, Family, Friend, Dad, Husband, Inspired by Tank (as seen here) Rookie Writer.",
-    "links": []
+    "links": [
+      {
+        "name": "YouTube",
+        "icon": "/icons/youtube.svg",
+        "url": "https://www.youtube.com/@wolfsongwriting2024/playlists"
+      }
+    ]
   },
   {
     "name": "Sam Freeman",
