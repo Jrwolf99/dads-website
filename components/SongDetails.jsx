@@ -1,10 +1,22 @@
 'use client';
 import React, { useRef } from 'react';
-import AudioPlay from './AudioPlay';
 import Share from '@/app/music/[slug]/Share';
+import { DownloadIcon } from 'lucide-react';
 
 export default function SongDetails({ song }) {
-  const audioRef = useRef(null);
+  const videoRef = useRef(null);
+
+  const handlePlayVideo = () => {
+    videoRef.current.src += '&autoplay=1';
+  };
+
+  const handleDownload = () => {
+    window.gtag('event', 'audio_download', {
+      event_category: 'Audio',
+      event_label: song.title,
+      value: song.audio,
+    });
+  };
 
   const parseLyrics = (lyrics) => {
     const parts = lyrics
@@ -30,52 +42,57 @@ export default function SongDetails({ song }) {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-800 flex flex-col items-center justify-center p-4">
-      <div className="text-center md:text-left w-full flex flex-col items-center md:flex-row md:items-start justify-center">
-        <img
-          src={song.titleImage}
-          alt={song.title}
-          className="w-full object-contain object-center max-w-md rounded-lg"
-        />
-        <div className="p-6 flex flex-col gap-4">
-          <div className="flex flex-col gap-2">
-            <h1 className="text-3xl font-bold dark:text-gray-200">
-              {song.title}
-            </h1>
-            <h2 className="text-xl text-gray-700 dark:text-gray-400">
-              by{' '}
-              {song.people.map((person, index) => (
-                <span key={person.name}>
-                  {person.name}
-                  {index < song.people.length - 1 ? ', ' : ''}
-                </span>
-              ))}
-            </h2>
-          </div>
-          <AudioPlay
-            ref={audioRef}
-            src={song.audio}
-            type="audio/mpeg"
-            className="w-full"
-            controls
-          />
-          <div>
-            <ul className="list-disc list-inside dark:text-gray-400">
-              {song.people.map((person, index) => (
-                <li key={index}>
-                  {person.name} ({person.role})
-                </li>
-              ))}
-            </ul>
-          </div>
-          <Share shareLink={song.shareLink} />
+    <div className="min-h-screen bg-white dark:bg-black p-4 w-full">
+      <div className="w-full max-w-4xl mx-auto">
+        <div className="text-center mb-4">
+          <h1 className="text-4xl font-bold text-black dark:text-white mb-2">
+            {song.title}
+          </h1>
+          <h2 className="text-xl text-gray-700 dark:text-gray-400">
+            by{' '}
+            {song.people.map((person, index) => (
+              <span key={person.name}>
+                {person.name} on {person.role}
+                {index < song.people.length - 1 ? ', ' : ''}
+              </span>
+            ))}
+          </h2>
         </div>
-      </div>
-      <div className="w-full my-12 mx-auto text-center">
-        <h3 className="text-2xl font-semibold dark:text-gray-200">Lyrics</h3>
-        <p className="whitespace-pre-line dark:text-gray-400">
-          {parseLyrics(song.lyrics)}
-        </p>
+
+        <div className="w-full h-0 pb-[56.25%] relative mb-6 rounded-lg overflow-hidden shadow-lg">
+          <iframe
+            ref={videoRef}
+            src={song.videoLink}
+            title={song.title}
+            className="absolute top-0 left-0 w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <div className="w-full flex justify-between gap-4">
+          <Share shareLink={song.shareLink} />
+
+          <a
+            href={song.audio}
+            download
+            alt={`Download ${song.title}`}
+            className="text-center w-[150px] h-12 px-4 bg-blue-100/50 text-blue-500 dark:bg-gray-800 dark:text-blue-400 text-xs flex items-center gap-2 hover:bg-blue-100 dark:hover:bg-blue-700 rounded-full cursor-pointer"
+            onClick={handleDownload}
+          >
+            Download MP3
+            <DownloadIcon size={24} />
+          </a>
+        </div>
+
+        <div className="w-full my-12 mx-auto text-center">
+          <h3 className="text-2xl font-semibold text-black dark:text-white">
+            Lyrics
+          </h3>
+          <p className="whitespace-pre-line text-gray-700 dark:text-gray-400">
+            {parseLyrics(song.lyrics)}
+          </p>
+        </div>
       </div>
     </div>
   );

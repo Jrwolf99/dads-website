@@ -31,6 +31,11 @@
     "sub_desc": "Faith, Family, Farmer, Father, Friend and Mostly Fearless. Vocalist, Musician.",
     "links": [
       {
+        "name": "Facebook",
+        "icon": "/icons/facebook.svg",
+        "url": "https://www.facebook.com/shannon.freeman.581"
+      },
+      {
         "name": "Email",
         "icon": "/icons/email.svg",
         "url": "mailto:gsfreeman75@gmail.com"
@@ -44,6 +49,11 @@
     "image": "/images/tank.jpg",
     "sub_desc": "Faith, Family, Friend, Dad, Husband, Inspired by Tank (as seen here) Rookie Writer.",
     "links": [
+      {
+        "name": "Facebook",
+        "icon": "/icons/facebook.svg",
+        "url": "https://www.facebook.com/songwritingwolf"
+      },
       {
         "name": "YouTube",
         "icon": "/icons/youtube.svg",

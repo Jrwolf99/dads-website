@@ -24,7 +24,7 @@ export default function Share({ shareLink }) {
             href={shareLink}
             className="text-sm text-gray-700 dark:text-gray-400 underline text-start"
           >
-            If you liked this, please leave us some feedback!
+            If you liked this, please leave us some feedback or share!
           </ShareButton>
         </FacebookProvider>
       ) : (
@@ -32,9 +32,9 @@ export default function Share({ shareLink }) {
           href="https://www.facebook.com/songwritingwolf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm text-gray-700 dark:text-gray-400 underline text-center w-full"
+          className="text-sm text-gray-700 dark:text-gray-400 underline text-start w-full"
         >
-          If you liked this, please leave us some feedback!
+          If you liked this, please leave us some feedback or share!
         </a>
       )}
     </>
