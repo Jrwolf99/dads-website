@@ -98,5 +98,13 @@
         "url": "https://www.instagram.com/farmhouse_rec_studio/"
       }
     ]
+  },
+  {
+    "name": "AI",
+    "category": "partner",
+    "role": "Music Composer",
+    "image": "/images/ai.png",
+    "sub_desc": "Instant - Lots of Fun. But not w/o a headache.",
+    "links": []
   }
 ]

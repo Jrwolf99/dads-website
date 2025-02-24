@@ -3,6 +3,25 @@ import songs from '@/data/songs';
 import SongCard from '@/components/SongCard';
 
 export default function Home() {
+  // Group songs by category
+  const groupedSongs = songs.reduce((acc, song) => {
+    if (!song.categoryIdentifier) return acc;
+    
+    const category = song.categoryIdentifier;
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+    acc[category].push(song);
+    return acc;
+  }, {});
+
+  // Category display names
+  const categoryTitles = {
+    'true-story': 'True Stories',
+    'not-so-true-story': 'Not So True Stories',
+    'other': 'Other Songs'
+  };
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-start">
       <h1 className="text-4xl md:text-[64px] font-bold text-center px-4 md:px-16 pt-16 pb-10 md:leading-[60px]">
@@ -14,16 +33,25 @@ export default function Home() {
           Our music, as of today...
         </p>
 
-        <div className="w-full p-4 flex flex-col gap-4 justify-center items-center max-w-4xl">
-          {songs.map((song) => (
-            <Link
-              className="w-full"
-              key={song.identifier}
-              as={`/music/${song.identifier}`}
-              href={`/music/[slug]`}
-            >
-              <SongCard song={song} />
-            </Link>
+        <div className="w-full p-4 max-w-4xl">
+          {Object.entries(groupedSongs).map(([category, categorySongs]) => (
+            <div key={category} className="w-full">
+              <h2 className="w-full text-2xl mt-16 mb-8">
+                {categoryTitles[category]}
+              </h2>
+              <div className="flex flex-col gap-4">
+                {categorySongs.map((song) => (
+                  <Link
+                    className="w-full"
+                    key={song.identifier}
+                    as={`/music/${song.identifier}`}
+                    href={`/music/[slug]`}
+                  >
+                    <SongCard song={song} />
+                  </Link>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
 

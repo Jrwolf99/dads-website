@@ -13,7 +13,9 @@ export default function SongCard({ song }) {
       <div className="p-4 md:w-2/3 flex flex-col gap-4">
         <h2 className="text-2xl font-bold dark:text-gray-200">{song.title}</h2>
 
-        {/* <p className="mt-4 dark:text-gray-200">{song.subtitle}</p> */}
+        {song.subTitle && (
+          <p className="-mt-4 dark:text-gray-200 text-gray-500">{song.subTitle}</p>
+        )}
 
         {/* <h3 className="text-lg font-semibold dark:text-gray-200 mt-4">
           Contributors

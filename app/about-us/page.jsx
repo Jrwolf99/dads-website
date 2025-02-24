@@ -17,7 +17,7 @@ export default function AboutUsPage() {
           ))}
       </div>
 
-      <h1 className="text-4xl font-bold text-center pt-10 pb-8">
+      {/* <h1 className="text-4xl font-bold text-center pt-10 pb-8">
         Coming Soon...
       </h1>
       <div className="flex flex-wrap mx-auto gap-4 justify-center items-start">
@@ -26,7 +26,8 @@ export default function AboutUsPage() {
           .map((person, index) => (
             <PersonCard key={index} person={person} />
           ))}
-      </div>
+      </div> */}
+
 
       <h1 className="text-4xl font-bold text-center pt-10 pb-8">
         With Special Thanks To...

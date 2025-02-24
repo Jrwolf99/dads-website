@@ -1,12 +1,13 @@
 [
   {
     "title": "Wall of Stone",
-    "titleImage": "/images/wall-of-stone.png",
+    "titleImage": "/images/wall-of-stone.jpeg",
     "shareLink": "https://www.facebook.com/share/p/H3fPsCwqoLPh4m3Q/",
     "videoLink": "https://www.youtube.com/embed/H9KbXrZQ6NU?si=_lE-RXnzLni_mvJX",
     "subTitle": null,
     "identifier": "wall-of-stone",
-    "lyrics": "The Time Had Come… My Heart Was Numb.\nOne Deep Sigh… The Long Good-Bye.\nWe Stood Tall… Children and All.\nHeads bowed In Awe… For God's Last Call.\n\nSoldiers in Line… It's Almost Time.\nPride in Chest… At Parade Rest.\nNow We Stand… And Hear the Command.\nTwo in Stride… Not Their First Time.\n\nA Flag they Hold… Corner to Corner\n13 Folds… In Your Honor.\nThe Soldier Finds His Next in Line.\nTears Now Climb… Can't Stop Time.\n\n5 Rifles High. Into the Sky.\n3 Shots Fired. 15 Retired.\nShells to the Ground. Makes a Sound.\nI Now hold… Deep Deep Down.\n\n**Chorus** \n*15 Shells and a Wall Of Stone. Locked inside but Not Alone.\nShells to the Ground. Now A Sound. That I Hold Dear… Deep Deep Down.*\n\n**Bridge**\nLast In the Row… A Bugle Blows.\nTaps an Echo… Tears Now Flow.\nAll is Silent… We Stand Alone.\nNot your Home… This Tall Wall of Stone.\n\nIt's Later Now… Hard to Believe.\nFew Know How… These Shells Remind Me.\nI am your Son… and Proud To Be.\nI am your Son… Yeah This is Me.",
+    "categoryIdentifier": "true-story",
+    "lyrics": "The Time Had Come... My Heart Was Numb.\nOne Deep Sigh... The Long Good-Bye.\nWe Stood Tall... Children And All.\nHeads Bowed In Awe... For God's Last Call.\n\nSoldiers In Line... It's Almost Time.\nPride In Chest... At Parade Rest.\nNow We Stand... And Hear The Command.\nTwo In Stride... Not Their First Time.\n\nA Flag They Hold... Corner To Corner.\n13 Folds... In Your Honor.\nThe Soldier Finds His Next In Line.\nTears Now Climb... Can't Stop Time.\n\n5 Rifles High. Into the Sky.\n3 Shots Fired. 15 Retired.\nShells to the Ground. Makes a Sound.\nI Now hold... Deep Deep Down.\n\n**Chorus** \n*15 Shells and a Wall Of Stone. Locked inside but Not Alone.\nShells to the Ground. Now A Sound. That I Hold Dear... Deep Deep Down.*\n\n**Bridge**\nLast In the Row... A Bugle Blows.\nTaps an Echo... Tears Now Flow.\nAll is Silent... We Stand Alone.\nNot your Home... This Tall Wall of Stone.\n\nIt's Later Now... Hard to Believe.\nFew Know How... These Shells Remind Me.\nI am your Son... and Proud To Be.\nI am your Son... Yeah This is Me.",
     "audio": "/music/wall-of-stone.mp3",
     "people": [
       {
@@ -24,15 +25,15 @@
     ],
     "bio": "Respect - Love of Parents\nA Final Celebration"
   },
-
   {
     "title": "Chains Of St. James",
-    "titleImage": "/images/chains.png",
+    "titleImage": "/images/chains.jpeg",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/s1bygEibjPI?si=69797bYEdx5cLYCl",
     "subTitle": null,
     "identifier": "chains",
-    "lyrics": "In 1831… Under A Hot Sun.\nSugar And Slaves… Were Bound As One.\nIt Was Always Known… Not To Be Undone.\nOwned by A Thrown… And Ruled By A Gun.\nBut In Old St James… On a Cold Christmas Day.\nThis would Change… In Every Way.\n\n**Chorus** \n*To the Souls… Who Fought & Prayed.*\n*You Broke These Old Chains… On that Day.*\n\n Led By a Cross… The Slaves without A Cost.\nArmed with Rage… They Rose Up Day.\nThey Set Fires Ablaze… For Each To Say.\nBe On your Way… Be Free This Day.\nFor 11 Days… They All Defied.\nThen they Paid… With 500 Lives.\n\n**Chorus** \n*To the Souls… Who Fought & Prayed.*\n*You Broke These Old Chains… On that Day.*\n\n**Bridge**\nAnd Their Leader… A Baptist Preacher.\nOn That Day… Was Hung… in Montego Bay.\n\n**Chorus** \n *To the Souls… Who Fought & Prayed.*\n*You Broke These Old Chains… On that Day.*\n\nWe Know Today… This Was Not In Silent Pain.\nYou Did Not Die… Did Not Die in Vain.\nBy 1834… A New Law Was Made.\nThere will be no more… Chains in St James.\nNo more… No More Chains in St James.",
+    "categoryIdentifier": "true-story",
+    "lyrics": "In 1831... Under A Hot Sun.\nSugar And Slaves... Were Bound As One.\nIt Was Always Known... Not To Be Undone.\nOwned By A Throne... And Ruled By A Gun.\nBut In Old St James... On A Cold Christmas Day.\nThis Would Change... In Every Way.\n\n**Chorus** \n*To the Souls... Who Fought & Prayed.*\n*You Broke These Old Chains... On that Day.*\n\n Led By A Cross... The Slaves Without A Cost.\nArmed With Rage... They Rose Up Day.\nThey Set Fires Ablaze... For Each To Say.\nBe On Your Way... Be Free This Day.\nFor 11 Days... They All Defied.\nThen they Paid... With 500 Lives.\n\n**Chorus** \n*To the Souls... Who Fought & Prayed.*\n*You Broke These Old Chains... On that Day.*\n\n**Bridge**\nAnd Their Leader... A Baptist Preacher.\nOn That Day... Was Hung... in Montego Bay.\n\n**Chorus** \n *To the Souls... Who Fought & Prayed.*\n*You Broke These Old Chains... On that Day.*\n\nWe Know Today... This Was Not In Silent Pain.\nYou Did Not Die... Did Not Die in Vain.\nBy 1834... A New Law Was Made.\nThere will be no more... Chains in St James.\nNo more... No More Chains in St James.",
     "audio": "/music/chains.mp3",
     "people": [
       {
@@ -49,5 +50,71 @@
       }
     ],
     "bio": "Baptist War of 1831"
+  },
+  {
+    "title": "The Preacher Ran",
+    "titleImage": "/images/preacher.jpeg",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/x-Qu_hVLu2c?si=2kToYgQPbMI2qGqk",
+    "subTitle": "Every Grave is a Story",
+    "identifier": "preacher",
+    "categoryIdentifier": "not-so-true-story",
+    "lyrics": "I Tried To Go... It Was Getting Late.\nA Grave Alone... Slowed My Pace.\nOn This Stone... A Sinner's Fate.\nWords Now Moaned... The Sound Of Hate.\n\n**Chorus**\n*Most Fear, the Guns of War.*\n*Some Fear, the Swing of a Sword.*\n*Liars Fear, Their Own Front Door.*\n*This One Fears, That and More.*\n\nThe Fight Began... A Fight To Win.\nThere Was No Plan... A Fight For Kin.\nThis Preacher Ran... He Knew He Sinned.\nWhen Father Dan... Grabbed His Gin.\n\nRiley Kate... Was Now Aglow.\nTold to Wait... She Didn't Know.\nNow She's Late... And Began To Show.\nThis Preacher Mate... Had to Go.\n\n**Chorus**\n*Most Fear, the Guns of War.*\n*Some Fear, the Swing of a Sword.*\n*Liars Fear, Their Own Front Door.*\n*This One Fears, That and More.*\n\nNo One Helped... The Preacher Hide.\nThen He Yelped... He Knew He Lied.\nDan Had Felt... A Father's Pride.\nAnd With His Belt... Dan Did Tie.\n\nHe Made A Noose... To Do the Deed.\nHis Vengeance Loose... The Preacher's Seed.\nThere Was No Truce... Just Rage & Speed.\nNo Excuse... Now Headstone Reads.\n\n**Chorus**\n*Most Fear, the Guns of War.*\n*Some Fear, the Swing of a Sword.*\n*Liars Fear, Their Own Front Door.*\n*This One Fears, That and More.*\n\nAnd So It Goes... No One Wins.\nNow We Know... How Hell Begins.\nBut Deep Below... Revenge of Kin.\nHe Had to Go... The Preacher Sinned.",
+    "audio": "/music/preacher.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "Pride, Family, and Revenge"
+  },
+  {
+    "title": "Respect",
+    "titleImage": "/images/respect.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/7wzZdVzVQYw?si=mbO922WCzZvRcDfV",
+    "subTitle": "Stop & Say Thank You",
+    "identifier": "respect",
+    "categoryIdentifier": "other",
+    "lyrics": "Old Wood Floors... And 3 High Tables.\nBar Maid Pours... From Whiskey Labels.\nMen Of War... Now Rusty Angels.\nA Time Before... Fallen Halos.\n\n**Chorus**\n*These Men Lead... With Reputation...*\n*Their Pride Needs... No Explanation.*\n*They Did For Me... Their Generation...*\n*Our Flag is Free... One God One Nation.*\n\nI Don't Know How... To Show Respect.\nI Know Somehow... I Might Regret.\nI Stare & Now... They Suspect.\nMy Head Just Bowed... A Bit Direct.\n\n**Chorus**\n*These Men Lead... With Reputation...*\n*Their Pride Needs... No Explanation.*\n*They Did For Me... Their Generation...*\n*Our Flag is Free... One God One Nation.*\n\nThe Old One Looked... At Me with Pause.\nI Just Stood... Without A Cause.\nMy Pride Was True... But Still Felt Flawed.\nHe Just Knew... Respect & Awe.\n\n**Chorus**\n*These Men Lead... With Reputation...*\n*Their Pride Needs... No Explanation.*\n*They Did For Me... Their Generation...*\n*Our Flag is Free... One God One Nation.*\n\nWe Never Met... But I Now See.\nIt's With Regret... I Let It Be.\nI Should Have Said... More Carefully.\nMy Respect... Is My Decree.\n\nMy Thanks to You... I Am Me.\nBecause of You... We Are Free.\nRespect is Due... To You I See.\nMy Thanks To You... My Son Will Be.\n\n**Chorus**\n*These Men Lead... With Reputation...*\n*Their Pride Needs... No Explanation.*\n*They Did For Me... Their Generation...*\n*Our Flag is Free... One God One Nation.*",
+    "audio": "/music/respect.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "Respect - Gratitude"
+  },
+  {
+    "title": "Songs and Stitches",
+    "titleImage": "/images/songs_and_stitches.jpeg",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/pI0wC3oJf28?si=n6_NkwA2nT44GNms",
+    "subTitle": "Fun and Simple",
+    "identifier": "songs-and-stitches",
+    "categoryIdentifier": "other",
+    "lyrics": "Dug Up & Stole... From Dusty Old Licks.\nSongs Are Just Old... Pieces & Bits.\nThe Good Ones Find... A Rhythm Or Trick.\nBut Most Songs Fold... And Die In A Fit.\n\nSome Songs Steal... Or Bend A Rhyme.\nTo Help You Feel... That's Not A Crime.\nBut Few Are One... One Of A Kind.\nMost Are New... Like Frankenstein.\n\n**Chorus**\n*Steal a Lyric, Bend a Rhyme.*\n*Songs are Just Like... Frankenstein.*\n*With Borrowed Notes That Fall & Climb.*\n*With Stitches & Bolts, To Help Align.*\n\nMost Old Rhymes... From Past Times.\nAre Stole In Body... And Then In Mind.\nAll From Hearses... Like Frankenstein.\nBecome Old Verses... With Really Bad Wine.\n\n**Chorus**\n*Steal a Lyric, Bend a Rhyme.*\n*Songs are Just Like... Frankenstein.*\n*With Borrowed Notes That Fall & Climb.*\n*With Stitches & Bolts, To Help Align.*\n\n*Steal a Lyric... Bend a Rhyme... Songs are Like... Frankenstein.*\n\nWe Need More Wine...",
+    "audio": "/music/songs-and-stitches.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "A Song About Songs"
   }
 ]
