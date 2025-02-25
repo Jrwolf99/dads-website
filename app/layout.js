@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       >
         <body className={inter.className}>
           <NavBar />
-          <main className="min-h-screen flex flex-col items-center justify-between px-4 max-w-5xl mx-auto">
+          <main className="min-h-screen flex flex-col items-center justify-between px-4 max-w-[1600px] mx-auto">
             {children}
           </main>
           <footer className="flex flex-col items-center justify-center w-full h-24 border-t mt-16 mb-8 pt-20 pb-24 gap-4">

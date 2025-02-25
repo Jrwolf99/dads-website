@@ -1,12 +1,12 @@
-import Link from 'next/link';
-import songs from '@/data/songs';
-import SongCard from '@/components/SongCard';
+import Link from "next/link";
+import songs from "@/data/songs";
+import SongCard from "@/components/SongCard";
 
 export default function Home() {
   // Group songs by category
   const groupedSongs = songs.reduce((acc, song) => {
     if (!song.categoryIdentifier) return acc;
-    
+
     const category = song.categoryIdentifier;
     if (!acc[category]) {
       acc[category] = [];
@@ -17,9 +17,9 @@ export default function Home() {
 
   // Category display names
   const categoryTitles = {
-    'true-story': 'True Stories',
-    'not-so-true-story': 'Not So True Stories',
-    'other': 'Other Songs'
+    "true-story": "True Stories",
+    "not-so-true-story": "Not So True Stories",
+    other: "Other Songs",
   };
 
   return (
@@ -33,9 +33,9 @@ export default function Home() {
           Our music, as of today...
         </p>
 
-        <div className="w-full p-4 max-w-4xl">
-          {Object.entries(groupedSongs).map(([category, categorySongs]) => (
-            <div key={category} className="w-full">
+        <div className="md:flex flex-wrap justify-center items-start gap-8">
+          {/* {Object.entries(groupedSongs).map(([category, categorySongs]) => (
+            <div key={category} className="md:w-[600px]">
               <h2 className="w-full text-2xl mt-16 mb-8">
                 {categoryTitles[category]}
               </h2>
@@ -51,6 +51,21 @@ export default function Home() {
                   </Link>
                 ))}
               </div>
+            </div>
+          ))} */}
+          {songs.map((song) => (
+            <div className="md:w-[600px] relative mt-8 md:mt-0">
+              <Link
+                className="w-full"
+                key={song.identifier}
+                as={`/music/${song.identifier}`}
+                href={`/music/[slug]`}
+              >
+                <SongCard song={song} />
+              </Link>
+              <div className="absolute top-0 right-0 bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200 font-semibold italic text-xs rounded-bl-md rounded-tr-md p-2 shadow border-1 border-gray-900">
+                {categoryTitles[song.categoryIdentifier]}
+                </div>
             </div>
           ))}
         </div>
