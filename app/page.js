@@ -17,8 +17,7 @@ export default function Home() {
 
   // Category display names
   const categoryTitles = {
-    "true-story": "Non-Fiction",
-    "not-so-true-story": "Fiction",
+    "true-story": "True",
   };
 
   return (
@@ -44,7 +43,7 @@ export default function Home() {
                 <SongCard song={song} />
               </Link>
               {categoryTitles[song.categoryIdentifier] && (
-                <div className="absolute top-2 right-2 bg-gray-100/80 text-gray-600 dark:bg-gray-800/80 dark:text-gray-400 text-[10px] rounded-md px-1.5 py-[2px]">
+                <div className="absolute top-2 right-2 text-gray-600 dark:text-gray-400 text-[10px] rounded-md px-1.5 py-[2px]">
                   {categoryTitles[song.categoryIdentifier]}
                 </div>
               )}
