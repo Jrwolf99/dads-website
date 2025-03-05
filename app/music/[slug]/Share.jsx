@@ -22,7 +22,7 @@ export default function Share({ shareLink }) {
         <FacebookProvider appId="2252397071767122">
           <ShareButton
             href={shareLink}
-            className="text-sm text-gray-700 dark:text-gray-400 underline text-start"
+            className="text-sm text-gray-700 dark:text-gray-400 underline text-start max-w-[200px]"
           >
             If you liked this, please leave us some feedback or share!
           </ShareButton>
