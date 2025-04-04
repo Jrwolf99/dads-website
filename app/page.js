@@ -43,7 +43,7 @@ export default function Home() {
                 <SongCard song={song} />
               </Link>
               {categoryTitles[song.categoryIdentifier] && (
-                <div className="absolute top-2 right-2 text-gray-600 dark:text-gray-400 text-[10px] rounded-md px-1.5 py-[2px]">
+                <div className="absolute top-2 right-2 text-gray-600 md:dark:text-gray-400 text-[10px] rounded-md px-1.5 py-[2px] bg-gray-100 dark:bg-gray-800 dark:text-white md:bg-transparent">
                   {categoryTitles[song.categoryIdentifier]}
                 </div>
               )}

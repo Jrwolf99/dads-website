@@ -59,7 +59,7 @@ export default function SongDetails({ song }) {
           </h2>
         </div>
 
-        <div className="w-full lg:w-[65%] mx-auto h-0 pb-[36.5625%] relative mb-8 rounded-xl overflow-hidden shadow-2xl">
+        <div className="w-full h-[250px] lg:h-[65%] lg:w-[65%] mx-auto h-0 pb-[36.5625%] relative mb-8 rounded-xl overflow-hidden shadow-2xl">
           <iframe
             ref={videoRef}
             src={song.videoLink}
@@ -70,7 +70,7 @@ export default function SongDetails({ song }) {
           ></iframe>
         </div>
 
-        <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 lg:bottom-8 lg:right-8 flex flex-col gap-3 items-end z-50">
+        <div className="fixed bottom-4 right-4 ml-4 sm:bottom-6 sm:right-6 lg:bottom-8 lg:right-8 flex flex-col gap-3 items-end z-50">
           <div className="bg-white/80 dark:bg-black/80 backdrop-blur-sm p-3 rounded-2xl shadow-lg flex gap-3">
             <Share shareLink={song.shareLink} />
 
@@ -91,7 +91,7 @@ export default function SongDetails({ song }) {
           <h3 className="text-2xl lg:text-3xl font-semibold text-black dark:text-white mb-6 underline">
             Lyrics
           </h3>
-          <p className="whitespace-pre-line text-gray-700 dark:text-gray-400 text-lg leading-relaxed">
+          <p className="whitespace-pre-line text-gray-700 dark:text-gray-400 text-sm md:text-lg leading-relaxed">
             {parseLyrics(song.lyrics)}
           </p>
         </div>
