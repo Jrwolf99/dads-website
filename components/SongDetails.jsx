@@ -52,7 +52,7 @@ export default function SongDetails({ song }) {
             by{' '}
             {song.people.map((person, index) => (
               <span key={person.name}>
-                {person.name} on {person.role}
+                {person.name} ({person.role})
                 {index < song.people.length - 1 ? ', ' : ''}
               </span>
             ))}
