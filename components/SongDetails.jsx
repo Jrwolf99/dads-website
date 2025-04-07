@@ -49,7 +49,6 @@ export default function SongDetails({ song }) {
             {song.title}
           </h1>
           <h2 className="text-xl lg:text-2xl text-gray-700 dark:text-gray-400">
-            by{' '}
             {song.people.map((person, index) => (
               <span key={person.name}>
                 {person.name} ({person.role})
