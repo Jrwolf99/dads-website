@@ -226,5 +226,29 @@
       }
     ],
     "bio": "Finnigan Fired the First Shot"
+  },
+  {
+    "title": "Knights Templar: Larger Than Life",
+    "titleImage": "/images/knight.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/iZYHqtU6htY?si=mKl4aULTQMo4FpES",  
+    "subTitle": null,
+    "identifier": "knights-templar-larger-than-life",
+    "categoryIdentifier": "other",
+    "lyrics": "Coming soon...  Thousands were called for over 200 years to protect Christians traveling back and forth to Jerusalem.",
+    "audio": "/music/knights-templar-larger-than-life.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "The story of a Knights Templar"
   }
+
+  
 ]

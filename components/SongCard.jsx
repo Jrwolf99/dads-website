@@ -13,7 +13,7 @@ export default function SongCard({ song }) {
         />
       </div>
       <div className="p-4 flex-1 flex flex-col gap-1 h-full overflow-hidden max-w-[300px]">
-        <h2 className="text-md font-bold dark:text-gray-200 max-w-[120px]">{song.title}</h2>
+        <h2 className="text-md font-bold dark:text-gray-200 max-w-[140px]">{song.title}</h2>
 
         {song.subTitle && (
           <p className="-mt-1 dark:text-gray-200 text-gray-500 text-sm">{song.subTitle}</p>
