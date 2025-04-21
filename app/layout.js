@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
             {children}
           </main>
           <footer className="flex flex-col items-center justify-center w-full h-24 border-t mt-16 mb-8 pt-20 pb-24 gap-4">
-            <p>© {new Date().getFullYear()} Wolf Music Productions</p>
+            <p>© {new Date().getFullYear()} Wolf Music Productions. All rights reserved.</p>
             <p className="text-sm text-gray-500">
               Website designed and made by{' '}
               <a
