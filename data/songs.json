@@ -248,5 +248,27 @@
       }
     ],
     "bio": "The story of a Knights Templar"
+  },
+  {
+    "title": "Hillbilly Rules",
+    "titleImage": "/images/hillbilly.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/NKyp7RXe0rY?si=9wNWvhQhLFMY9vZz",  
+    "subTitle": null,
+    "identifier": "hillbilly-rules",
+    "categoryIdentifier": "other",
+    "lyrics": "Yeah Son… You're on My Stool.\nThis is A Bar… Not A School.\nWhen I'm Done… You Can Move.\nIt's Not That Hard… Just Follow the Rules.\n\nSome Call Us Redneck… That's hard to Refuse.\nWe Say Hillbilly… That's Kinda Cool.\nBut What Comes Next… Is All up to You.\nMind your Step… Here Are the Rules.\n\n**Chorus**\n*Respect is First… And All It Invokes. Then Comes Defend… Stay at your Post.*\n*Live & Let be… Praise God the Most. For Kin & Country… Our Hillbilly Oath.*\n\nEveryone Here… Is Settled & Set.\nLife Road Em Hard… Then Put Away Wet.\nPride & Beer… Are What We Have Left.\nWith All The Scars… And A Few Regrets.\n\nIn Here We Matter… We Follow The Rules.\nOut There We Scatter… Some of Us Fools.\nI Hear the Chatter… But Stay on My Stool.\nWith Pride & Swagger… Grandma Approves.\n\n**Chorus**\n*Respect is First… And All It Invokes. Then Comes Defend… Stay at your Post.*\n*Live & Let be… Praise God the Most. For Kin & Country… Our Hillbilly Oath.*\n\nIn Time We All Die… But I Choose to Live.\nWith God as My Guide… Each Day I Forgive.\nIn Here I Decide… Just How to Live.\nHigh Is My Pride… And All that it Gives.\n\nWhile Your Here… Still Next To Me.\nIn this Bar… Of Hillbilly's.\nMy Gift So Far… My Pride You See.\nBut Pay for your Beer… That's Not Free.\n\n**Chorus**\n*Respect is First… And All It Invokes. Then Comes Defend… Stay at your Post.*\n*Live & Let be… Praise God the Most. For Kin & Country… Our Hillbilly Oath.*",
+    "audio": "/music/hillbilly-rules.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "A Bar's Rules of Life"
   }
 ]
