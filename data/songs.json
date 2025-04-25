@@ -234,7 +234,7 @@
     "videoLink": "https://www.youtube.com/embed/iZYHqtU6htY?si=mKl4aULTQMo4FpES",  
     "subTitle": null,
     "identifier": "knights-templar-larger-than-life",
-    "categoryIdentifier": "other",
+    "categoryIdentifier": "true-story",
     "lyrics": "One by one… Thousands were called.\nFrom farms & fields… To castle walls.\nFathers & sons… Time recalls.\nA templar's shield… Strong & tall.\n\nA cross of red… On a mantel of white.\nFor God they said… The promise to fight.\nTo war & death… To protect what is right.\nThe legend spread… A templars knight.\n\n**Chorus**\n*Covered in steel… Chains & mace.*\n*With cape & hood… To cover the face.*\n*God made real… By the hell they chased.*\n*Fight for the good… Then die in grace.*\n\nA shield in hand… A helmet of grey.\nA sword that stands… Red cross displayed.\nBy God's command… Evil then paid.\nThen on demand… They settle to pray.\n\n**Chorus**\n*Covered in steel… Chains & mace.*\n*With cape & hood… To cover the face.*\n*God made real… By the hell they chased.*\n*Fight for the good… Then die in grace.*\n\nHeaven had gave… An angel of steel.\nMan then made… The legend real.\nSwords were raised… And honor revealed.\nGod had saved… When demons kneeled.\n\n**Chorus**\n*Covered in steel… Chains & mace.*\n*With cape & hood… To cover the face.*\n*God made real… By the hell they chased.*\n*Fight for the good… Then die in grace.*\n\nTime has gone… But the legend stays.\nMan moved on… But on this day.\nA red cross made real… In every way.\nMy angel of steel… In God we pray.\n\n**Chorus**\n*Covered in steel… Chains & mace.*\n*With cape & hood… To cover the face.*\n*God made real… By the hell they chased.*\n*Fight for the good… Then die in grace.*",
     "audio": "/music/knights-templar-larger-than-life.mp3",
     "people": [
@@ -270,5 +270,27 @@
       }
     ],
     "bio": "A Bar's Rules of Life"
+  },
+  {
+    "title": "Knights Templar: Faith of Steel",
+    "titleImage": "/images/knight1.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/rT_ATw1uPsg?si=yU53RIt24MJYvg2_",
+    "subTitle": "Why it Began - Knights Templar - 1119 Crusades",
+    "identifier": "knights-templar-faith-of-steel",
+    "categoryIdentifier": "true-story",
+    "lyrics": "A war for God… A time to choose.\nA war for the lord… We cannot lose.\nHeaven's reward… Whose God is true.\nHigh is the sword… When arrows loose.\n\nA fight for a land… Where jesus died.\nA fight in the sand… To stay alive.\nThen it began… Crusades in time.\nWhen man killed man… And faith was blind.\n\n**Chorus**\n*The highest honor… To die for the cross. To protect & serve… At any cost.\nHeld high is the sword. Who wears the red cross. For God & church. No matter the loss*\n\nPeasants & nobles… Traveled to see.\nThe hill of our lord… In calvary.\nKilled on the way… No matter the plea.\nYou cannot stay… No one agreed.\n\nFor 200 years… The promise was real.\nThousands of knights… A peasant's shield.\nA war for God… And a faith to feal.\nTo pray & fight… And finally kneel.\n\n**Chorus**\n*The highest honor… To die for the cross. To protect & serve… At any cost.\nHeld high is the sword. Who wears the red cross. For God & church. No matter the loss*\n\nThese were the men… The people placed.\nCovered in steel… Hammer & mace.\nA worthy shield… When evil was faced.\nTo live & feel… Then die in grace.\n\n**Chorus**\n*The highest honor… To die for the cross. To protect & serve… At any cost.\nHeld high is the sword. Who wears the red cross. For God & church. No matter the loss*\n\nLegends in time… A templar's knight.\nRed cross enshrined… On a mantel of white.\nDefender of faith… For all that is right.\nIn God's way… With all of his might.\n\n**Chorus**\n*The highest honor… To die for the cross. To protect & serve… At any cost.\nHeld high is the sword. Who wears the red cross. For God & church. No matter the loss*",
+    "audio": "/music/knights-templar-faith-of-steel.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": ""
   }
 ]
