@@ -32,7 +32,7 @@ export default function Home() {
         </p>
 
         <div className="md:flex flex-wrap justify-center items-start gap-4">
-          {songs.reverse().map((song) => (
+          {[...songs].reverse().map((song) => (
             <div className="md:w-[400px] relative mt-4 md:mt-0">
               <Link
                 className="w-full"
