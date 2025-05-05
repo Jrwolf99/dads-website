@@ -1,7 +1,7 @@
 [
   {
     "title": "Wall of Stone",
-    "titleImage": "/images/thumbnails/wall-of-stone.jpeg",
+    "titleImage": "/images/wall-of-stone.jpeg",
     "shareLink": "https://www.facebook.com/share/p/H3fPsCwqoLPh4m3Q/",
     "videoLink": "https://www.youtube.com/embed/H9KbXrZQ6NU?si=_lE-RXnzLni_mvJX",
     "subTitle": null,
@@ -27,7 +27,7 @@
   },
   {
     "title": "Chains Of St. James",
-    "titleImage": "/images/thumbnails/chains.jpeg",
+    "titleImage": "/images/chains.jpeg",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/s1bygEibjPI?si=69797bYEdx5cLYCl",
     "subTitle": null,
@@ -53,7 +53,7 @@
   },
   {
     "title": "The Preacher Ran",
-    "titleImage": "/images/thumbnails/preacher.jpeg",
+    "titleImage": "/images/preacher.jpeg",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/x-Qu_hVLu2c?si=2kToYgQPbMI2qGqk",
     "subTitle": "Every Grave is a Story",
@@ -75,7 +75,7 @@
   },
   {
     "title": "Respect",
-    "titleImage": "/images/thumbnails/respect.png",
+    "titleImage": "/images/respect.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/7wzZdVzVQYw?si=mbO922WCzZvRcDfV",
     "subTitle": "Stop & Say Thank You",
@@ -97,7 +97,7 @@
   },
   {
     "title": "Songs and Stitches",
-    "titleImage": "/images/thumbnails/songs_and_stitches.jpeg",
+    "titleImage": "/images/songs_and_stitches.jpeg",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/pI0wC3oJf28?si=n6_NkwA2nT44GNms",
     "subTitle": "Fun and Simple",
@@ -119,7 +119,7 @@
   },
   {
     "title": "Angry Penguins",
-    "titleImage": "/images/thumbnails/penguin.png",
+    "titleImage": "/images/penguin.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/BIePO_39PB4?si=DdVBjU50ehg7FoQc",
     "subTitle": null,
@@ -141,7 +141,7 @@
   },
   {
     "title": "Devil's Quake",
-    "titleImage": "/images/thumbnails/quake.png",
+    "titleImage": "/images/quake.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/FLmiKA_5Gk0?si=tkgNdQk_at-UTRtT",
     "subTitle": null,
@@ -163,7 +163,7 @@
   },
   {
     "title": "Man with the Beard",
-    "titleImage": "/images/thumbnails/truck.png",
+    "titleImage": "/images/truck.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/3Pe-AZ8QZik?si=vSNApUVOWQFs5_N_",
     "subTitle": null,
@@ -185,7 +185,7 @@
   },
   {
     "title": "Hello Finnigan",
-    "titleImage": "/images/thumbnails/finnigan.png",
+    "titleImage": "/images/finnigan.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/_TZWgldsIPI?si=HB2Um0LVG3b1hfFT",
     "subTitle": null,
@@ -207,7 +207,7 @@
   },
   {
     "title": "First Shot Fired",
-    "titleImage": "/images/thumbnails/sheep.png",
+    "titleImage": "/images/sheep.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/3IwhAsckrOc?si=Q87nAbV5vP_prvB_",  
     "subTitle": null,
@@ -229,7 +229,7 @@
   },
   {
     "title": "Hillbilly Rules",
-    "titleImage": "/images/thumbnails/hillbilly.png",
+    "titleImage": "/images/hillbilly.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/NKyp7RXe0rY?si=9wNWvhQhLFMY9vZz",  
     "subTitle": null,
@@ -251,7 +251,7 @@
   },
   {
     "title": "Knights Templar: Larger Than Life",
-    "titleImage": "/images/thumbnails/knight.png",
+    "titleImage": "/images/knight.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/iZYHqtU6htY?si=mKl4aULTQMo4FpES",  
     "subTitle": null,
@@ -273,7 +273,7 @@
   },
   {
     "title": "Knights Templar: Faith of Steel",
-    "titleImage": "/images/thumbnails/knight1.png",
+    "titleImage": "/images/knight1.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/rT_ATw1uPsg?si=yU53RIt24MJYvg2_",
     "subTitle": "Why it Began - Knights Templar - 1119 Crusades",
@@ -295,7 +295,7 @@
   },
   {
     "title": "Knights Templar: Taken Down",
-    "titleImage": "/images/thumbnails/knight2.png",
+    "titleImage": "/images/knight2.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",
     "videoLink": "https://www.youtube.com/embed/Iac4FTEjl38?si=sGh5wa__IcL3PoJx",
     "subTitle": "Gone… The relics of Christ, the wealth, the Knights… It's in this mystery, the legends live on.",
