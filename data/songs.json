@@ -314,6 +314,72 @@
       }
     ],
     "bio": ""
+  },
+  {
+    "title": "Not Broke Yet",
+    "titleImage": "/images/egg.JPG",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/hgraW3R92qI?si=DoStHtr3NJWC66YS",
+    "subTitle": null,
+    "identifier": "not-broke-yet",
+    "categoryIdentifier": "other",
+    "lyrics": "In comes Jenny… Just past nine.\nWelcome to Denny's… Read the sign.\nHair still wet… Ignores the line.\nA damn good bet… Back in time.\n\nI sat with doubt… A little inspired.\nMy life now… A dumpster fire.\nI enquired… After a while.\nYou don't tire… Always a smile.\n\nWe're all the same… We're all a mess. A little bit cracked… But not broke yet.\n\nShe counted to three… Then turned my way.\nSaw through me… And started to say.\nHoney ya see… Back in the day.\nMoney for me… Was never the way.\n\nI was made by passion… Then raised by a man.\nMamma ran off… Paw quit the band.\nThe good & bad… Go hand in hand.\nMost days now… I'm just happy to stand.\n\nLife is hard… So they say. We all have scars… In our own way.\nBut don't judge it… How I play. I'm on a beer can budget… Most of the day.\n\nMy advice to you… And any who cares.\nDecide for yourself… Choose to dare.\nBe proud of you… Lay the soul bare.\nAnd never ever… Ever compare.\n\nAnd so it went… No more no less.\nShe paid with change… Her hair a mess.\nOur time now spent… But she confessed.\nGonna go buy me… A redneck dress.\n\nWe're all the same… We're all a mess. A little cracked… But not broke yet.",
+    "audio": "/music/not-broke-yet.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "A Denny's Encounter"
+  },
+  {
+    "title": "Angels Loose",
+    "titleImage": "/images/angel.jpeg",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/T7XRk9qR4AI?si=5afOZlp3_qTx4nSQ",
+    "subTitle": null,
+    "identifier": "angels-loose",
+    "categoryIdentifier": "other",
+    "lyrics": "A Sunday drive… On a quiet day.\nA simple ride… I'm on my way.\nFate decides… A different way.\nShe crossed that line… Oh God I prayed.\n\nI don't recall… Who or why.\nOr all the care… At my side.\nBut when I woke… My heart did cry.\nI couldn't walk… God knows I tried.\n\nA quiet pain… The sounds of fear.\nI refrain… To hold back tears.\nTo win or lose… And how to heal.\nI had to choose… How to feel.\n\nNothing to lose… and no excuse… I had to let… My angels loose.\nTo guide my way… From hell & back… A little each day… I fired back.\n\nThe healing began… Of this I'm certain.\nWith love of my man… Who carried my burden.\nThe mindful hands… Of all the surgeons.\nAnd caring demands… Of God's own nurses.\n\nNothing to lose… and no excuse… I had to let… My angels loose.\nTo guide my way… From hell & back… A little each day… I fired back.\n\nA little here… A little more.\nEvery day… I win a war.\nNow a year… And some more.\nMy path is clear… Like before.\n\nGod helped me then… And helps me now.\nMy family stands… And shows me how.\nA little bit better… Every day.\nWhen angels guide… To show the way.\n\nNothing to lose… and no excuse… I had to let… My angels loose.\nTo guide my way… From hell & back… A little each day… I fired back.",
+    "audio": "/music/angels-loose.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "A Journey of Recovery and Faith"
+  },
+  {
+    "title": "Missing Bullets",
+    "titleImage": "/images/beer_bullet.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/87fAZs4pDNE?si=tJZIapu4hyWsmbxl",
+    "subTitle": null,
+    "identifier": "missing-bullets",
+    "categoryIdentifier": "other",
+    "lyrics": "A gun without ammo… Is just a bluff.\nIt's big on show… But not enough.\nOne needs the other… When life gets tough.\nThey go together… Like a huff and a puff.\n\nBut what do you do… When bullets run.\nThey refuse… To load in life's gun.\nPeople go missing… When they stop having fun.\nWhere do they go?… When they wanna be done.\n\nCheers to you… & cheers to me… A shot for you… And a beer for me.\nHigh in your stool. We let it all be. There's only one rule. Home before 3.\n\nEveryone here… Is just like a bullet.\nOnce ready to fire… But no trigger to pull it.\nNow retired… They try not to push it.\nStacked in this bar… Like old missing bullets.\n\nCheers to you… & cheers to me… A shot for you… And a beer for me.\nHigh in your stool. We let it all be. There's only one rule. Home before 3.\n\nIn here we find… The locked and loaded.\nFriends of mine… Not yet imploded.\nLike ammo in time… That never exploded.\nLost in their prime… A little corroded.\n\nI can go on… The old girls & boys.\nThey smile a lot… And love the noise.\nAll bullets now gone… Long since employed.\nA lovely spot… Of misfit toys.\n\nCheers to you… & cheers to me… A shot for you… And a beer for me.\nHigh in your stool. We let it all be. There's only one rule. Home before 3.",
+    "audio": "/music/missing-bullets.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "A Bar Full of Stories"
   }
 ]
 
