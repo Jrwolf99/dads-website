@@ -380,7 +380,30 @@
       }
     ],
     "bio": "A Bar Full of Stories"
-  }
+  },
+  {
+    "title": "Box Of Echoes",
+    "titleImage": "/images/box.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/AtbBlGZiwKk?si=u_J2loX-mn15Ao39",
+    "subTitle": null,
+    "identifier": "box-of-echoes",
+    "categoryIdentifier": "other",
+    "audio": "/music/box-of-echoes.mp3",
+    "lyrics": "When I was nine… I took the time.\nTo keep some things… old friends of mine.\nEach one I find… as one of a kind.\nBy design… all were mine.\n\nThings I kept… at that time.\nWere easy to get… like twirly twine.\nAnd fun to find… like shiny dimes.\nAnd really cool… new green slime.\n\nMemories of old… frozen in time.\nWe hold them close… to help remind.\nPlaced in a box… to save as mine.\nTo warm the heart… echoes of mine.\n\nAs I grew… my box did too.\nWhen life gave me… something new.\nI'd find a thing… something true.\nA one of a kind… sometimes two.\n\nEchoes of love… each with hope.\nEchoes of those… we miss the most.\nEchoes of time… and all invoked.\nEchoes of life… as musical notes.\n\nEchoes of love… this I know.\nYou filled my life… you made it grow.\nYou filled my thoughts… you made it so.\nYou filled my box… each an echo.\n\nMemories of old… frozen in time.\nWe hold them close… to help remind.\nPlaced in a box… to save as mine.\nTo warm the heart… echoes of mine.\n\nTo warm the heart… echoes of mine.",
+    "description": "Some of the best memories of life, are simply gifts from God.\n\nFor me, only the best ones are now saved now in a special box, always nearby.\n\nMay your Own Box be filled......way before the lid closes.\n\nDedicated to Mr. Bob Williams. He was our friend, who first sang this song in the dining room of Ave Maria Senior Home. He was gifted with a bigger than life personality and voice from God. He always made you smile and was big fan of Tank.",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "May your box overflow, well before the lid closes."
+  } 
 ]
 
 

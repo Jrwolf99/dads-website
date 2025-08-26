@@ -1,0 +1,22 @@
+[{
+    "title": "Collierville",
+    "titleImage": "/images/collierville.jpg",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/placeholder",
+    "subTitle": null,
+    "identifier": "collierville",
+    "categoryIdentifier": "true-story",
+    "lyrics": "A Tennessee town… the stories say\nThat nearly burned down… in Civil War days\nA Bible town… we are today\nWhere church bells ring… to keep it that way\n\nThis is our home… a place we all share\nWe're very well known… cause we all care\nTime has shown… with a little prayer\nYou're never alone… when you're on the square\n\nIn time we grew… from wagons & trails\nMuch of it new… from cotton bails\nThe work was true… this town would not fail\nEven when moonshine… rushed its one jail\n\nThis is our home… a place we all share\nWe're very well known… cause we all care\nTime has shown… with a little prayer\nYou're never alone… when you're on the square\n\nLater a crime… a pain not wanted\nShots fired froze time… for some still haunted\nGod bless our blue line… they all responded\nFor you hearts climb… you are wanted\n\nThis is our home… a place we all share\nWe're very well known… cause we all care\nTime has shown… with a little prayer\nYou're never alone… when you're on the square\n\nWith parks & trains… and even some bars\nWhere bluegrass reigns… with strings & guitars\nWhere Bibles & preachers… heal old scars\nAnd all school teachers… are still rock stars\n\nA town still small… a home we build\nWhere songs say y'all… and the wind is still\nA town for us all… and for some a thrill\nWe're proud to still call… Collierville",
+    "audio": "/music/collierville.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "Collierville, TN: A town, church, square, and home."
+  }]
