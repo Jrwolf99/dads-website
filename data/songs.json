@@ -403,8 +403,53 @@
       }
     ],
     "bio": "May your box overflow, well before the lid closes."
-  } 
-]
+  },
+  {
+    "title": "Bam Bam Bam",
+    "titleImage": "/images/wedding.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/hlWW4Fkmakg?si=_QX2Eq7-Cksvl24R",
+    "subTitle": null,
+    "identifier": "bam-bam-bam",
+    "categoryIdentifier": "other",
+    "lyrics": "Snow white chairs… placed with care.\nThe people stare… a formal affair.\nThey face one way… on wedding day.\nThe violin plays… soft and sway.\n\nThen the wind blew… the fathers knew.\nRain was coming… we should move.\nWe're under a roof… not rain proof.\nIt's made of metal… someone goofed.\n\nBut the pastor goes on… he does what he can.\nLet's get this done… bam. bam. bam.\nThe groom is stunned… the bride ran.\nThe rain bangs on… this big metal can.\n\nBam bam bam… the sound fantastic.\nA metal can… the rain bombastic.\nA new kind of band… the preacher drastic.\nDo you take this man… at best was sarcastic.\n\nIt's over now… our senses were plowed.\nNo one can hear… we each yelled out loud.\nDad got a beer… but grandma looked proud.\nShe bought the steel… and the roof took a bow.\n\nBam bam bam… the sound fantastic.\nA metal can… the rain bombastic.\nA new kind of band… the preacher drastic.\nDo you take this man… at best was sarcastic.\n\nIt's over now… our senses were plowed.\nNo one can hear… we each yelled out loud.\nDad got a beer… but grandma looked proud.\nShe bought the steel… and the roof took a bow.",
+    "audio": "/music/bam-bam-bam.mp3",
+    "description": "You know that moment when you know you're not supposed to laugh, but you do anyway? Well.....This was that moment. True Story (most of it). One of Donna's weddings. Ended well. :)",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "A Wedding Under a Metal Roof"
+  },
+     {
+     "title": "Hillbilly Bar",
+     "titleImage": "/images/hillbilly_beer.png",
+     "shareLink": "https://www.facebook.com/songwritingwolf",
+     "videoLink": "https://www.youtube.com/embed/3jshtLuv5cw?si=b5fg40j125QZe3nn",
+     "subTitle": null,
+     "identifier": "hillbilly-bar",
+     "categoryIdentifier": "other",
+     "lyrics": "Not too far… not far from here.\nMy hillbilly bar… I hold dear.\nWith smiles & scars… the rules are clear.\nCome as you are… and stay for the beer.\n\nIn my bar… we like to toast.\nWe stand tall… and love to vote.\nWith one guitar… and two old goats.\nAll in all… we have hope.\n\nNow here's a chance… to learn a song.\nA hillbilly chant… you can sing along.\nA bit of a rant… not too long.\nLearn if you can… but keep your pants on.\n\nThese are my people… these are my friends. This is my bar… say it again.\nThese are my people… these are my friends. This is my bar… amen amen.\n\nIn here we dance… keep the blinds down.\nLike army ants… all crawling around.\nWe say we can… until the bar shuts down.\nThen a faceplant… sally went down.\n\nHardwood floors… & one bar maid.\nWe're all surprised… she chose to stay.\nShe looks bored… but happy to say.\nBless your heart… now do it my way.\n\nTwo cougars… and a peacock.\nLots of rumors… and a shock jock.\nSome bad humor… knock knock.\nWinner & losers… all in a crock pot.\n\nThese are my people… these are my friends. This is my bar… say it again.\nThese are my people… these are my friends. This is my bar… amen amen.",
+     "audio": "/music/hillbilly-bar.mp3",
+     "people": [
+       {
+         "name": "Bill Wolf",
+         "role": "Lyrics"
+       },
+       {
+         "name": "AI",
+         "role": "Music"
+       }
+     ],
+     "bio": "You either have it… or want it. When you find it… sing it loud and proud."
+   }
+ ]
 
 
 
