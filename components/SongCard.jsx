@@ -3,7 +3,7 @@ import ImageWithPulse from './ImageWithPulse';
 
 export default function SongCard({ song }) {
   return (
-    <div className="w-full mx-auto min-h-[200px] bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row border hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-100 ease-in-out text-left">
+    <div className="w-full mx-auto min-h-[200px] bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row border hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-100 ease-in-out text-left relative">
       <div className="w-full md:w-[180px] h-[300px] md:h-[200px] flex-shrink-0">
         <ImageWithPulse
           src={song.titleImage}

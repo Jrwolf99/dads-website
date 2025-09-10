@@ -3,7 +3,7 @@
     "name": "Donna Wolf",
     "category": "member",
     "role": "Violinist",
-    "image": "/images/mom.jpg",
+    "image": "/images/people/mom.jpg",
     "sub_desc": "Faith, Family, Friend, Violinist, Fiddler, Musician, Mother, Love of Bill’s Life.",
     "links": [
       {
@@ -27,7 +27,7 @@
     "name": "Shannon Freeman",
     "category": "member",
     "role": "Vocalist & Musician",
-    "image": "/images/shannon.jpg",
+    "image": "/images/people/shannon.jpg",
     "sub_desc": "Faith, Family, Farmer, Father, Friend and Mostly Fearless. Vocalist, Musician.",
     "links": [
       {
@@ -45,9 +45,9 @@
   {
     "name": "Bill Wolf",
     "category": "member",
-    "role": "Lyricist",
-    "image": "/images/tank.jpg",
-    "sub_desc": "Faith, Family, Friend, Dad, Husband, Inspired by Tank (as seen here) Rookie Writer.",
+    "role": "Lyricist / Upright Bass",
+    "image": "/images/people/dad.png",
+    "sub_desc": "Faith, Family, Friend, Dad, Husband, Rookie Writer and Bass Player.",
     "links": [
       {
         "name": "Facebook",
@@ -62,16 +62,86 @@
     ]
   },
   {
+    "name": "Jonathan Wolf",
+    "category": "member",
+    "role": "Drums",
+    "image": "/images/people/jonathan.png",
+    "sub_desc": "Son, Fun, Talented, Drummer, Big Help, Web Designer for this page. Very Capable.",
+    "links": []
+  },
+  {
     "name": "Sam Freeman",
-    "category": "coming_soon",
-    "role": null,
-    "image": "/images/sam.jpg",
-    "sub_desc": "Faith, Family, Friend, Son, Songwriter. A Very Talented Young Man.",
+    "category": "member",
+    "role": "Vocals, Guitar",
+    "image": "/images/people/sam.jpg",
+    "sub_desc": "Faith, Family, Son, Songwriter, A Very Talented Man.",
     "links": [
       {
         "name": "YouTube",
         "icon": "/icons/youtube.svg",
         "url": "https://www.youtube.com/channel/UCEuNo-SCN8_AUIBPUlspX7A"
+      }
+    ]
+  },
+  {
+    "name": "Maggie Freeman",
+    "category": "member",
+    "role": "Vocals, Piano",
+    "image": "/images/people/maggie.png",
+    "sub_desc": "Faith, Family, WOW, Broadway Voice, All Heart.",
+    "links": []
+  },
+  {
+    "name": "Clay Caver",
+    "category": "partner",
+    "role": "Banjo",
+    "image": "/images/people/clay.png",
+    "sub_desc": "Faith, Family, Father, Friend, Fun, Talented, Determined, BANJO.",
+    "links": []
+  },
+  {
+    "name": "Terrie Brown",
+    "category": "partner",
+    "role": "Harmony / Guitar",
+    "image": "/images/people/terrie.png",
+    "sub_desc": "Friend, Happy, LOTS of Talent. Will Take Your Money with a Smile.",
+    "links": []
+  },
+  {
+    "name": "Karen Hudson",
+    "category": "partner",
+    "role": "Dobro / Guitar",
+    "image": "/images/people/karen.png",
+    "sub_desc": "Friend, Now Family, LOTS of Talent. Can Play Anything. Switchblade.",
+    "links": []
+  },
+  {
+    "name": "Steve Craig",
+    "category": "partner",
+    "role": "Lead Vocals",
+    "image": "/images/people/steve.png",
+    "sub_desc": "Faith, Family, Father, Friend, Bass Player, One-Of-A-Kind Voice.",
+    "links": []
+  },
+
+  {
+    "name": "William Wolf",
+    "category": "partner",
+    "role": "Mandolin",
+    "image": "/images/people/william.png",
+    "sub_desc": "Family, Son, Ironman, Wicked Smart.",
+    "links": []
+  },
+  {
+    "name": "Tank",
+    "category": "partner",
+    "role": "Super - Fan",
+    "image": "/images/people/tank.jpg",
+    "links": [
+      {
+        "name": "Instagram",
+        "icon": "/icons/instagram.svg",
+        "url": "https://www.instagram.com/tank_the_dog/"
       }
     ]
   },
@@ -100,11 +170,19 @@
     ]
   },
   {
-    "name": "AI",
+    "name": "Tad Jewitt",
     "category": "partner",
-    "role": "Music Composer",
-    "image": "/images/ai.png",
-    "sub_desc": "Instant - Lots of Fun. But not w/o a headache.",
+    "role": "BEST RECORDING ENGINEER",
+    "image": "/images/people/tad.png",
+    "sub_desc": "The Patience of Job with the Skills of Beethoven.",
+    "links": []
+  },
+  {
+    "name": "Jaime Freeman",
+    "category": "member",
+    "role": "Musician",
+    "image": "/images/people/jaime.png",
+    "sub_desc": "Faith, Family, Fun, FULL Support, 😊",
     "links": []
   }
 ]

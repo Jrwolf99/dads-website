@@ -55,13 +55,6 @@ export default function NavBar() {
             </Button>
           </Link>
         </li>
-        {/* <li>
-          <Link href="/events">
-            <Button onClick={() => setIsOpen(false)} variant="ghost">
-              Events
-            </Button>
-          </Link>
-        </li> */}
         <li>
           <Link href="/about-us">
             <Button
