@@ -110,12 +110,12 @@ export default function Home() {
           If God gave you a talent... Use it.
         </p>
         
-        <Link 
+        {/* <Link 
           href="/archived" 
           className="text-sm text-gray-500 dark:text-gray-400 underline hover:text-gray-700 dark:hover:text-gray-300 mb-8"
         >
           View Archived Songs
-        </Link>
+        </Link> */}
         {/* 
         <div className="flex flex-wrap gap-2 md:gap-4 justify-center mt-8 text-sm md:text-lg">
           <Link

@@ -69,6 +69,15 @@
     "sub_desc": "Son, Fun, Talented, Drummer, Big Help, Web Designer for this page. Very Capable.",
     "links": []
   },
+
+  {
+    "name": "William Wolf",
+    "category": "member",
+    "role": "Mandolin",
+    "image": "/images/people/william.png",
+    "sub_desc": "Family, Son, Ironman, Wicked Smart.",
+    "links": []
+  },
   {
     "name": "Sam Freeman",
     "category": "member",
@@ -123,15 +132,6 @@
     "sub_desc": "Faith, Family, Father, Friend, Bass Player, One-Of-A-Kind Voice.",
     "links": []
   },
-
-  {
-    "name": "William Wolf",
-    "category": "partner",
-    "role": "Mandolin",
-    "image": "/images/people/william.png",
-    "sub_desc": "Family, Son, Ironman, Wicked Smart.",
-    "links": []
-  },
   {
     "name": "Tank",
     "category": "partner",
@@ -179,10 +179,9 @@
   },
   {
     "name": "Jaime Freeman",
-    "category": "member",
-    "role": "Musician",
+    "category": "partner",
     "image": "/images/people/jaime.png",
-    "sub_desc": "Faith, Family, Fun, FULL Support, 😊",
+    "sub_desc": "Faith, Family, Fun, FULL Support 😊",
     "links": []
   }
 ]
