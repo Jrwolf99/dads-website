@@ -106,7 +106,8 @@
     "role": "Banjo",
     "image": "/images/people/clay.png",
     "sub_desc": "Faith, Family, Father, Friend, Fun, Talented, Determined, BANJO.",
-    "links": []
+    "links": [],
+    "archived": true
   },
   {
     "name": "Terrie Brown",
@@ -114,7 +115,8 @@
     "role": "Harmony / Guitar",
     "image": "/images/people/terrie.png",
     "sub_desc": "Friend, Happy, LOTS of Talent. Will Take Your Money with a Smile.",
-    "links": []
+    "links": [],
+    "archived": true
   },
   {
     "name": "Karen Hudson",
@@ -122,7 +124,8 @@
     "role": "Dobro / Guitar",
     "image": "/images/people/karen.png",
     "sub_desc": "Friend, Now Family, LOTS of Talent. Can Play Anything. Switchblade.",
-    "links": []
+    "links": [],
+    "archived": true
   },
   {
     "name": "Steve Craig",
@@ -130,12 +133,13 @@
     "role": "Lead Vocals",
     "image": "/images/people/steve.png",
     "sub_desc": "Faith, Family, Father, Friend, Bass Player, One-Of-A-Kind Voice.",
-    "links": []
+    "links": [],
+    "archived": true
   },
   {
     "name": "Tank",
     "category": "partner",
-    "role": "Super - Fan",
+    "sub_desc": "Our number one super fan and supporter.",
     "image": "/images/people/tank.jpg",
     "links": [
       {
@@ -148,9 +152,8 @@
   {
     "name": "Farmhouse",
     "category": "partner",
-    "role": "Best Recording Studio Ever",
+    "sub_desc": "Best recording studio ever!",
     "image": "/images/farmhouse.jpg",
-    "sub_desc": null,
     "links": [
       {
         "name": "Website",
@@ -172,9 +175,8 @@
   {
     "name": "Tad Jewitt",
     "category": "partner",
-    "role": "BEST RECORDING ENGINEER",
     "image": "/images/people/tad.png",
-    "sub_desc": "The Patience of Job with the Skills of Beethoven.",
+    "sub_desc": "BEST RECORDING ENGINEER! The patience of Job with the skills of Beethoven.",
     "links": []
   },
   {

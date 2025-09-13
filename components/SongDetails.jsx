@@ -48,14 +48,23 @@ export default function SongDetails({ song }) {
           <h1 className="text-4xl lg:text-5xl font-bold text-black dark:text-white mb-3">
             {song.title}
           </h1>
-          <h2 className="text-xl lg:text-2xl text-gray-700 dark:text-gray-400">
-            {song.people.map((person, index) => (
-              <span key={person.name}>
-                {person.name} ({person.role})
-                {index < song.people.length - 1 ? ', ' : ''}
-              </span>
-            ))}
-          </h2>
+          <div className="max-w-[700px] mx-auto mt-6">
+            <div className="flex flex-wrap justify-center gap-4 lg:gap-6">
+              {song.people.map((person, index) => (
+                <div
+                  key={person.name}
+                  className="inline-flex items-center"
+                >
+                  <span className="font-medium text-gray-900 dark:text-gray-100 text-sm lg:text-base">
+                    {person.name}
+                  </span>
+                  <span className="ml-1 text-xs lg:text-sm text-gray-500 dark:text-gray-400">
+                    ({person.role})
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div className="w-full h-[250px] lg:h-[65%] lg:w-[65%] mx-auto h-0 pb-[36.5625%] relative mb-8 rounded-xl overflow-hidden shadow-2xl">

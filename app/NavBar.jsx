@@ -14,7 +14,7 @@ export default function NavBar() {
   const menuBarStyles =
     'block w-full h-[2.5px] rounded-full bg-black dark:bg-white transition-all duration-300 ease-in-out';
   return (
-    <nav className="py-4 relative w-full">
+    <nav className="py-2 relative w-full">
       <div className="flex justify-between items-center py-2 px-5">
         <div className="sm:hidden">
           <button
@@ -34,14 +34,32 @@ export default function NavBar() {
             />
           </button>
         </div>
-        <div className="sm:ml-auto">
+        <div className="hidden sm:flex sm:gap-5 items-center">
+          <Link href="/">
+            <Button
+              variant={
+                path.includes('music') || path === '/' ? 'outline' : 'ghost'
+              }
+            >
+              Music
+            </Button>
+          </Link>
+          <Link href="/about-us">
+            <Button
+              variant={path.includes('about-us') ? 'outline' : 'ghost'}
+            >
+              About Us
+            </Button>
+          </Link>
+        </div>
+        <div className="ml-auto">
           <ThemeButton />
         </div>
       </div>
       <ul
-        className={`flex flex-col sm:flex-row sm:gap-5 justify-center items-center p-2 gap-4 sm:gap-0 transition-all duration-300 ease-in-out ${
+        className={`flex flex-col gap-4 justify-center items-center p-2 transition-all duration-300 ease-in-out ${
           isOpen ? 'block' : 'hidden'
-        } sm:flex`}
+        } sm:hidden`}
       >
         <li>
           <Link href="/">

@@ -448,6 +448,48 @@
        }
      ],
      "bio": "You either have it… or want it. When you find it… sing it loud and proud."
+   },
+   {
+    "title": "Your Bow",
+    "titleImage": "/images/your-bow.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/bRIEkhZvaNs?si=Wms5bUbQRILeGB7s",
+    "subTitle": null,
+    "identifier": "your-bow",
+    "categoryIdentifier": "other",
+    "lyrics": "Some years ago… you found your bow.\nGod said so… then music flowed.\nWhere to go… you didn't know.\nBut with each note… I followed.\n\nAs you played… the people would show.\nHeads would sway… to & fro.\nAs they stayed… their hearts did grow.\nAnd on those days… I found my soul.\n\nWhen you play… fast or slow. I find my way, I find my soul.\nI love the way… my heart grows… when you play… I find my soul.\n\nIn day or night… both the same.\nWe smile & cry… we feel the rain.\nYour bow helps tie… our joy & pain.\nWe don't ask why… it's in God's name.\n\nWhen you play… fast or slow. I find my way, I find my soul.\nI love the way… my heart grows… when you play… I find my soul.\n\nOhh ohh ohh… ohh ohh ohh…\nNow we know… where to go.\nWe hope you play… until we're old.\nThis gift in kind… is your bow.\nTo help us find… to find our soul.\n\nWhen you play… fast or slow. I find my way, I find my soul.\nI love the way… my heart grows… when you play… I find my soul.\nWhen you play… I find my soul.",
+    "audio": "/music/your-bow.mp3",
+    "people": [
+      {
+        "name": "Shannon Freeman",
+        "role": "Vocals/Guitar"
+      },
+      {
+        "name": "Donna Wolf",
+        "role": "Violin"
+      },
+      {
+        "name": "Sam Freeman",
+        "role": "Guitar"
+      },
+      {
+        "name": "Maggie Freeman",
+        "role": "Backup Vocals"
+      },
+      {
+        "name": "William Wolf",
+        "role": "Mandolin"
+      },
+      {
+        "name": "Jonathan Wolf",
+        "role": "Drums"
+      },
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics / Upright Bass"
+      }
+    ],
+    "bio": "A Love Song Tribute inspired by the Talented Donna Wolf"
    }
  ]
 
