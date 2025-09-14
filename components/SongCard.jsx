@@ -23,7 +23,7 @@ export default function SongCard({ song }) {
           </p>
         )}
 
-        <div className="text-xs text-gray-600 dark:text-gray-300">
+        <div className="text-xs text-gray-600 dark:text-gray-300 line-clamp-3">
           {song.people.map((person, index) => (
             <p key={index}>
               {person.name} {person.role && `(${person.role})`}

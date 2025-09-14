@@ -11,9 +11,9 @@ export default function PersonCard({ person }) {
   return (
     <button 
       onClick={handleClick}
-      className="group relative w-[240px] bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+      className="group relative w-[260px] bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
     >
-      <div className="relative w-full h-[200px] overflow-hidden">
+      <div className="relative w-full h-[260px] overflow-hidden">
         <img
           src={person.image}
           alt=""

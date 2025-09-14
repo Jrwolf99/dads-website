@@ -49,16 +49,16 @@ export default function SongDetails({ song }) {
             {song.title}
           </h1>
           <div className="max-w-[700px] mx-auto mt-6">
-            <div className="flex flex-wrap justify-center gap-4 lg:gap-6">
+            <div className="flex flex-wrap justify-center space-x-6">
               {song.people.map((person, index) => (
                 <div
                   key={person.name}
                   className="inline-flex items-center"
                 >
-                  <span className="font-medium text-gray-900 dark:text-gray-100 text-sm lg:text-base">
+                  <span className="font-medium text-gray-900 dark:text-gray-100 text-sm lg:text-base mb-2">
                     {person.name}
                   </span>
-                  <span className="ml-1 text-xs lg:text-sm text-gray-500 dark:text-gray-400">
+                  <span className="ml-1 text-xs lg:text-sm text-gray-500 dark:text-gray-400 mb-2">
                     ({person.role})
                   </span>
                 </div>

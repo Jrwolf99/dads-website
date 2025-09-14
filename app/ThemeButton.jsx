@@ -2,16 +2,7 @@
 
 import * as React from 'react';
 import { useTheme } from 'next-themes';
-import { SunIcon } from '@heroicons/react/24/solid';
-import { MoonIcon } from '@heroicons/react/24/outline';
 
-import { Button } from '@/components/ui/button';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
 import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
 

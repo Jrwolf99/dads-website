@@ -18,7 +18,7 @@ export default function AboutUsPage() {
       </div>
 
 
-      <h1 className="text-4xl font-bold text-center pt-10 pb-8">
+      <h1 className="text-4xl font-bold text-center pt-20 pb-12">
         With Special Thanks To...
       </h1>
       <div className="flex gap-4 flex-wrap justify-center mx-auto px-4 max-w-[1200px]">

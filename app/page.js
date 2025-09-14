@@ -29,13 +29,13 @@ export default function Home() {
       </h1>
 
       <div className="flex flex-col text-center items-center justify-start w-full px-4 md:px-6 lg:px-8">
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 md:mb-6 lg:mb-12 w-full text-gray-700 dark:text-gray-400">
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl w-full text-gray-700 dark:text-gray-400">
           Our music, as of today...
         </p>
 
         <div className="w-full max-w-7xl sm:px-[100px] 2xl:px-[0px]">
           {activeSongs.length > 0 && (
-            <div className="mt-6 sm:mt-[70px]">
+            <div className="mt-6 sm:mt-[px]">
               <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6 sm:gap-8">
                 {activeSongs.map((song) => (
                   <div key={song.identifier} className="relative">

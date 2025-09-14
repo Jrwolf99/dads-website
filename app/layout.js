@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <GoogleAnalytics />
       <ThemeProvider
         attribute="class"
-        defaultTheme="system"
+        defaultTheme="light"
         enableSystem
         disableTransitionOnChange
       >
