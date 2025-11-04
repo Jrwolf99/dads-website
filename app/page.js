@@ -11,12 +11,6 @@ export default function Home() {
 
   const activeSongs = [...songs].reverse().filter((song) => !song.archived);
 
-  const iconContainerBaseClass =
-    "flex items-center justify-center rounded-md border border-gray-300 dark:border-gray-600 shadow-sm";
-  const textBadgeBaseClass =
-    "flex items-center justify-center text-gray-600 dark:text-gray-400 text-[10px] rounded-md border border-gray-300 dark:border-gray-600 shadow-sm";
-  const imageClass = "w-full h-full object-contain";
-
   return (
     <div className="min-h-screen flex flex-col items-center">
       <h1 className="text-4xl font-bold text-center pt-2 pb-4">
@@ -41,9 +35,7 @@ export default function Home() {
                     }`}
                   >
                     {item.src ? (
-                      <div
-                        className={`${iconContainerBaseClass} ${item.styles}`}
-                      >
+                      <div className={`${item.styles}`}>
                         <Image
                           src={item.src}
                           alt={item.label}
@@ -53,9 +45,7 @@ export default function Home() {
                         />
                       </div>
                     ) : (
-                      <div className={`${textBadgeBaseClass} ${item.styles}`}>
-                        {item.text}
-                      </div>
+                      <div className={`${item.styles}`}>{item.text}</div>
                     )}
                     <span className="text-gray-700 dark:text-gray-300 text-sm font-medium">
                       {item.label}
@@ -79,9 +69,6 @@ export default function Home() {
                         song={song}
                         tags={song.tags}
                         legendLookup={legendLookup}
-                        iconContainerBaseClass={iconContainerBaseClass}
-                        textBadgeBaseClass={textBadgeBaseClass}
-                        imageClass={imageClass}
                       />
                     </Link>
                   </div>

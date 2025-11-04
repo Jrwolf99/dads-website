@@ -1,15 +1,8 @@
 import React from "react";
-import Image from "next/image"
+import Image from "next/image";
 import ImageWithPulse from "./ImageWithPulse";
 
-export default function SongCard({
-  song,
-  tags,
-  legendLookup,
-  iconContainerBaseClass,
-  textBadgeBaseClass,
-  imageClass,
-}) {
+export default function SongCard({ song, tags, legendLookup }) {
   return (
     <div className="max-w-[400px] md:max-w-full w-full mx-auto min-h-[200px] bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row border hover:shadow-2xl transform  transition-all duration-50 dark:hover:bg-gray-700 transition duration-100 ease-in-out text-left relative md:pr-[50px]">
       <div className="w-full md:w-[180px] h-[300px] md:h-[200px] flex-shrink-0">
@@ -28,19 +21,15 @@ export default function SongCard({
             return (
               <div key={tag}>
                 {item.src ? (
-                  <div className={`${iconContainerBaseClass} ${item.styles}`}>
-                    <Image
-                      src={item.src}
-                      alt={item.label}
-                      width={item.width}
-                      height={item.height}
-                      className="object-contain"
-                    />
-                  </div>
+                  <Image
+                    src={item.src}
+                    alt={item.label}
+                    width={item.width}
+                    height={item.height}
+                    className="object-contain"
+                  />
                 ) : (
-                  <div className={`${textBadgeBaseClass} ${item.styles}`}>
-                    {item.text}
-                  </div>
+                  <div className={`${item.styles}`}>{item.text}</div>
                 )}
               </div>
             );
@@ -87,17 +76,15 @@ export default function SongCard({
               return (
                 <div key={tag} className="flex items-center gap-1.5">
                   {item.src ? (
-                    <div className={`${iconContainerBaseClass} ${item.styles}`}>
-                      <img
-                        src={item.src}
-                        alt={item.label}
-                        className={imageClass}
-                      />
-                    </div>
+                    <Image
+                      src={item.src}
+                      alt={item.label}
+                      width={item.width}
+                      height={item.height}
+                      className="object-contain"
+                    />
                   ) : (
-                    <div className={`${textBadgeBaseClass} ${item.styles}`}>
-                      {item.text}
-                    </div>
+                    <div className={`${item.styles}`}>{item.text}</div>
                   )}
                   <span className="text-gray-600 dark:text-gray-400 text-[10px] font-medium">
                     {item.label}
