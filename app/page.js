@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import songs from "@/data/songs";
 import SongCard from "@/components/SongCard";
 import { legendItems } from "@/data/legendItems";
@@ -17,21 +18,21 @@ export default function Home() {
   const imageClass = "w-full h-full object-contain";
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start">
+    <div className="min-h-screen flex flex-col items-center">
       <h1 className="text-4xl font-bold text-center pt-2 pb-4">
         Welcome to Wolf Songwriting
       </h1>
 
-      <div className="flex flex-col text-center items-center justify-start w-full px-4 md:px-6 lg:px-8">
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl w-full text-gray-700 dark:text-gray-400">
+      <div className="flex flex-col text-center items-center w-full px-4 md:px-6 lg:px-8">
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 dark:text-gray-400">
           Our music, as of today...
         </p>
 
-        <div className="w-full max-w-[1600px] sm:px-[100px] 2xl:px-[0px]">
+        <div className="w-full max-w-[1600px] sm:px-[100px] 2xl:px-0">
           <div className="mt-10 mb-8 relative">
             <div className="absolute inset-0 border-t border-gray-200 dark:border-gray-700"></div>
             <div className="relative pt-6 px-6 sm:px-8">
-              <div className="flex flex-wrap items-center justify-start md:justify-center gap-x-8 gap-y-4 pl-5 md:pl-0">
+              <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
                 {legendItems.map((item) => (
                   <div
                     key={item.key}
@@ -40,11 +41,15 @@ export default function Home() {
                     }`}
                   >
                     {item.src ? (
-                      <div className={iconContainerBaseClass}>
-                        <img
+                      <div
+                        className={`${iconContainerBaseClass} ${item.styles}`}
+                      >
+                        <Image
                           src={item.src}
                           alt={item.label}
-                          className={`object-contain ${item.styles}`}
+                          width={item.width}
+                          height={item.height}
+                          className="object-contain"
                         />
                       </div>
                     ) : (
