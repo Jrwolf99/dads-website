@@ -27,11 +27,11 @@ export default function SongCard({
             return (
               <div key={tag}>
                 {item.src ? (
-                  <div className={`${iconContainerBaseClass} ${item.styles}`}>
+                  <div className={iconContainerBaseClass}>
                     <img
                       src={item.src}
                       alt={item.label}
-                      className={imageClass}
+                      className={`object-contain ${item.styles}`}
                     />
                   </div>
                 ) : (

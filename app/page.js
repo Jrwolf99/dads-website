@@ -40,13 +40,11 @@ export default function Home() {
                     }`}
                   >
                     {item.src ? (
-                      <div
-                        className={`${iconContainerBaseClass} ${item.styles}`}
-                      >
+                      <div className={iconContainerBaseClass}>
                         <img
                           src={item.src}
                           alt={item.label}
-                          className={imageClass}
+                          className={`object-contain ${item.styles}`}
                         />
                       </div>
                     ) : (
