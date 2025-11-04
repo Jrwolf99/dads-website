@@ -1,57 +1,5 @@
 [
   {
-    "title": "Wall of Stone",
-    "titleImage": "/images/wall-of-stone.jpeg",
-    "shareLink": "https://www.facebook.com/share/p/H3fPsCwqoLPh4m3Q/",
-    "videoLink": "https://www.youtube.com/embed/H9KbXrZQ6NU?si=_lE-RXnzLni_mvJX",
-    "subTitle": null,
-    "identifier": "wall-of-stone",
-    "tags": ["real", "bills-lyrics", "true-story"],
-    "lyrics": "The time had come… My heart was numb.\nOne deep sigh… The long good-bye.\nWe stood tall… Children and all.\nHeads bowed in awe… For God's last call.\n\nSoldiers in line… It's almost time.\nPride in chest… At parade rest.\nNow we stand… And hear the command.\nTwo in stride… Not their first time.\n\nA flag they hold… Corner to corner.\n13 folds… In your honor.\nThe soldier finds his next in line.\nTears now climb… Can't stop time.\n\n5 rifles high. Into the sky.\n3 shots fired. 15 retired.\nShells to the ground. Makes a sound.\nI now hold… Deep deep down.\n\n15 shells and a wall of stone. Locked inside but not alone.\nShells to the ground. Now a sound. That I hold dear… Deep deep down.\n\nLast in the row… A bugle blows.\nTaps an echo… Tears now flow.\nAll is silent… We stand alone.\nNot your home… This tall wall of stone.\n\nIt's later now… Hard to believe.\nFew know how… These shells remind me.\nI am your son… and proud to be.\nI am your son… Yeah this is me.",
-    "audio": "/music/wall-of-stone.mp3",
-    "people": [
-      {
-        "name": "Shannon Freeman",
-        "role": "Vocals"
-      },
-      {
-        "name": "Donna Wolf",
-        "role": "Violin"
-      },
-      {
-        "name": "Bill Wolf",
-        "role": "Lyrics"
-      }
-    ],
-    "bio": "Respect - Love of Parents\nA Final Celebration"
-  },
-  {
-    "title": "Chains Of St. James",
-    "titleImage": "/images/chains.jpeg",
-    "shareLink": "https://www.facebook.com/songwritingwolf",
-    "videoLink": "https://www.youtube.com/embed/s1bygEibjPI?si=69797bYEdx5cLYCl",
-    "subTitle": null,
-    "identifier": "chains",
-      "tags": ["real", "bills-lyrics", "true-story"],
-    "lyrics": "In 1831… Under a hot sun.\nSugar and slaves… Were bound as one.\nIt was always known… Not to be undone.\nOwned by a throne… And ruled by a gun.\nBut in old St James… On a cold Christmas day.\nThis would change… In every way.\n\nTo the souls… Who fought & prayed.\nYou broke these old chains… On that day.\n\nLed by a cross… The slaves without a cost.\nArmed with rage… They rose up day.\nThey set fires ablaze… For each to say.\nBe on your way… Be free this day.\nFor 11 days… They all defied.\nThen they paid… With 500 lives.\n\nTo the souls… Who fought & prayed.\nYou broke these old chains… On that day.\n\nAnd their leader… A Baptist preacher.\nOn that day… Was hung… in Montego Bay.\n\nTo the souls… Who fought & prayed.\nYou broke these old chains… On that day.\n\nWe know today… This was not in silent pain.\nYou did not die… Did not die in vain.\nBy 1834… A new law was made.\nThere will be no more… Chains in St James.\nNo more… No more chains in St James.",
-    "audio": "/music/chains.mp3",
-    "people": [
-      {
-        "name": "Shannon Freeman",
-        "role": "Vocals"
-      },
-      {
-        "name": "Donna Wolf",
-        "role": "Violin"
-      },
-      {
-        "name": "Bill Wolf",
-        "role": "Lyrics"
-      }
-    ],
-    "bio": "Baptist War of 1831"
-  },
-  {
     "title": "The Preacher Ran",
     "titleImage": "/images/preacher.jpeg",
     "shareLink": "https://www.facebook.com/songwritingwolf",
@@ -490,7 +438,59 @@
       }
     ],
     "bio": "A Love Song Tribute inspired by the Talented Donna Wolf"
-   }
+   },
+   {
+    "title": "Wall of Stone",
+    "titleImage": "/images/wall-of-stone.jpeg",
+    "shareLink": "https://www.facebook.com/share/p/H3fPsCwqoLPh4m3Q/",
+    "videoLink": "https://www.youtube.com/embed/H9KbXrZQ6NU?si=_lE-RXnzLni_mvJX",
+    "subTitle": null,
+    "identifier": "wall-of-stone",
+    "tags": ["real", "bills-lyrics", "true-story"],
+    "lyrics": "The time had come… My heart was numb.\nOne deep sigh… The long good-bye.\nWe stood tall… Children and all.\nHeads bowed in awe… For God's last call.\n\nSoldiers in line… It's almost time.\nPride in chest… At parade rest.\nNow we stand… And hear the command.\nTwo in stride… Not their first time.\n\nA flag they hold… Corner to corner.\n13 folds… In your honor.\nThe soldier finds his next in line.\nTears now climb… Can't stop time.\n\n5 rifles high. Into the sky.\n3 shots fired. 15 retired.\nShells to the ground. Makes a sound.\nI now hold… Deep deep down.\n\n15 shells and a wall of stone. Locked inside but not alone.\nShells to the ground. Now a sound. That I hold dear… Deep deep down.\n\nLast in the row… A bugle blows.\nTaps an echo… Tears now flow.\nAll is silent… We stand alone.\nNot your home… This tall wall of stone.\n\nIt's later now… Hard to believe.\nFew know how… These shells remind me.\nI am your son… and proud to be.\nI am your son… Yeah this is me.",
+    "audio": "/music/wall-of-stone.mp3",
+    "people": [
+      {
+        "name": "Shannon Freeman",
+        "role": "Vocals"
+      },
+      {
+        "name": "Donna Wolf",
+        "role": "Violin"
+      },
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      }
+    ],
+    "bio": "Respect - Love of Parents\nA Final Celebration"
+  },
+  {
+    "title": "Chains Of St. James",
+    "titleImage": "/images/chains.jpeg",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/s1bygEibjPI?si=69797bYEdx5cLYCl",
+    "subTitle": null,
+    "identifier": "chains",
+      "tags": ["real", "bills-lyrics", "true-story"],
+    "lyrics": "In 1831… Under a hot sun.\nSugar and slaves… Were bound as one.\nIt was always known… Not to be undone.\nOwned by a throne… And ruled by a gun.\nBut in old St James… On a cold Christmas day.\nThis would change… In every way.\n\nTo the souls… Who fought & prayed.\nYou broke these old chains… On that day.\n\nLed by a cross… The slaves without a cost.\nArmed with rage… They rose up day.\nThey set fires ablaze… For each to say.\nBe on your way… Be free this day.\nFor 11 days… They all defied.\nThen they paid… With 500 lives.\n\nTo the souls… Who fought & prayed.\nYou broke these old chains… On that day.\n\nAnd their leader… A Baptist preacher.\nOn that day… Was hung… in Montego Bay.\n\nTo the souls… Who fought & prayed.\nYou broke these old chains… On that day.\n\nWe know today… This was not in silent pain.\nYou did not die… Did not die in vain.\nBy 1834… A new law was made.\nThere will be no more… Chains in St James.\nNo more… No more chains in St James.",
+    "audio": "/music/chains.mp3",
+    "people": [
+      {
+        "name": "Shannon Freeman",
+        "role": "Vocals"
+      },
+      {
+        "name": "Donna Wolf",
+        "role": "Violin"
+      },
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      }
+    ],
+    "bio": "Baptist War of 1831"
+  }
  ]
 
 
