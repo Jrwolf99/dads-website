@@ -64,7 +64,7 @@ export default function Home() {
                       as={`/music/${song.identifier}`}
                       href={`/music/[slug]`}
                     >
-                      <SongCard song={song} tags={song.tags} />
+                      <SongCard song={song} tags={song.tags} mini />
                     </Link>
                   </div>
                 ))}
