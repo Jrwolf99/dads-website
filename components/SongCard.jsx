@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"
 import ImageWithPulse from "./ImageWithPulse";
 
 export default function SongCard({
@@ -27,11 +28,13 @@ export default function SongCard({
             return (
               <div key={tag}>
                 {item.src ? (
-                  <div className={iconContainerBaseClass}>
-                    <img
+                  <div className={`${iconContainerBaseClass} ${item.styles}`}>
+                    <Image
                       src={item.src}
                       alt={item.label}
-                      className={`object-contain ${item.styles}`}
+                      width={item.width}
+                      height={item.height}
+                      className="object-contain"
                     />
                   </div>
                 ) : (
