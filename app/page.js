@@ -13,7 +13,7 @@ export default function Home() {
   const iconContainerBaseClass =
     "flex items-center justify-center rounded-md border border-gray-300 dark:border-gray-600 shadow-sm";
   const textBadgeBaseClass =
-    "text-gray-600 dark:text-gray-400 text-[10px] rounded-md border border-gray-300 dark:border-gray-600 shadow-sm";
+    "flex items-center justify-center text-gray-600 dark:text-gray-400 text-[10px] rounded-md border border-gray-300 dark:border-gray-600 shadow-sm";
   const imageClass = "w-full h-full object-contain";
 
   return (
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="mt-10 mb-8 relative">
             <div className="absolute inset-0 border-t border-gray-200 dark:border-gray-700"></div>
             <div className="relative pt-6 px-6 sm:px-8">
-              <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+              <div className="flex flex-wrap items-center justify-start md:justify-center gap-x-8 gap-y-4 pl-5 md:pl-0">
                 {legendItems.map((item) => (
                   <div
                     key={item.key}
@@ -72,37 +72,15 @@ export default function Home() {
                       as={`/music/${song.identifier}`}
                       href={`/music/[slug]`}
                     >
-                      <SongCard song={song} />
+                      <SongCard
+                        song={song}
+                        tags={song.tags}
+                        legendLookup={legendLookup}
+                        iconContainerBaseClass={iconContainerBaseClass}
+                        textBadgeBaseClass={textBadgeBaseClass}
+                        imageClass={imageClass}
+                      />
                     </Link>
-                    {song.tags && song.tags.length > 0 && (
-                      <div className="absolute top-2 right-2 flex flex-col items-center gap-1.5">
-                        {song.tags.map((tag) => {
-                          const item = legendLookup[tag];
-                          if (!item) return null;
-                          return (
-                            <div key={tag}>
-                              {item.src ? (
-                                <div
-                                  className={`${iconContainerBaseClass} ${item.styles}`}
-                                >
-                                  <img
-                                    src={item.src}
-                                    alt={item.label}
-                                    className={imageClass}
-                                  />
-                                </div>
-                              ) : (
-                                <div
-                                  className={`${textBadgeBaseClass} ${item.styles}`}
-                                >
-                                  {item.text}
-                                </div>
-                              )}
-                            </div>
-                          );
-                        })}
-                      </div>
-                    )}
                   </div>
                 ))}
               </div>
