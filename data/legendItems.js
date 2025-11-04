@@ -21,6 +21,7 @@ export const legendItems = [
     text: "True",
     width: 32,
     height: 22,
-    styles: "py-1 px-2 !bg-red-500 text-gray-600 shadow-sm rounded-md",
+    styles:
+      "py-1 px-2 !bg-red-500 text-gray-800 shadow-sm rounded-sm text-[12px] border border-gray-300 dark:border-gray-600",
   },
 ];
