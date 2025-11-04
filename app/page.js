@@ -1,30 +1,24 @@
 import Link from "next/link";
 import songs from "@/data/songs";
 import SongCard from "@/components/SongCard";
+import { legendItems } from "@/data/legendItems";
 
 export default function Home() {
-  // Group songs by category
-  const groupedSongs = songs.reduce((acc, song) => {
-    if (!song.categoryIdentifier) return acc;
+  const legendLookup = Object.fromEntries(
+    legendItems.map((item) => [item.key, item])
+  );
 
-    const category = song.categoryIdentifier;
-    if (!acc[category]) {
-      acc[category] = [];
-    }
-    acc[category].push(song);
-    return acc;
-  }, {});
+  const activeSongs = [...songs].reverse().filter((song) => !song.archived);
 
-  // Category display names
-  const categoryTitles = {
-    "true-story": "True",
-  };
-
-  const activeSongs = [...songs].reverse().filter(song => !song.archived);
+  const iconContainerBaseClass =
+    "flex items-center justify-center rounded-md border border-gray-300 dark:border-gray-600 shadow-sm";
+  const textBadgeBaseClass =
+    "text-gray-600 dark:text-gray-400 text-[10px] rounded-md border border-gray-300 dark:border-gray-600 shadow-sm";
+  const imageClass = "w-full h-full object-contain";
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-start">
-           <h1 className="text-4xl font-bold text-center pt-2 pb-4">
+      <h1 className="text-4xl font-bold text-center pt-2 pb-4">
         Welcome to Wolf Songwriting
       </h1>
 
@@ -33,7 +27,41 @@ export default function Home() {
           Our music, as of today...
         </p>
 
-        <div className="w-full max-w-7xl sm:px-[100px] 2xl:px-[0px]">
+        <div className="w-full max-w-[1600px] sm:px-[100px] 2xl:px-[0px]">
+          <div className="mt-10 mb-8 relative">
+            <div className="absolute inset-0 border-t border-gray-200 dark:border-gray-700"></div>
+            <div className="relative pt-6 px-6 sm:px-8">
+              <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+                {legendItems.map((item) => (
+                  <div
+                    key={item.key}
+                    className={`flex items-center ${
+                      item.src ? "gap-3" : "gap-2.5"
+                    }`}
+                  >
+                    {item.src ? (
+                      <div
+                        className={`${iconContainerBaseClass} ${item.styles}`}
+                      >
+                        <img
+                          src={item.src}
+                          alt={item.label}
+                          className={imageClass}
+                        />
+                      </div>
+                    ) : (
+                      <div className={`${textBadgeBaseClass} ${item.styles}`}>
+                        {item.text}
+                      </div>
+                    )}
+                    <span className="text-gray-700 dark:text-gray-300 text-sm font-medium">
+                      {item.label}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
           {activeSongs.length > 0 && (
             <div className="mt-6 sm:mt-[px]">
               <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6 sm:gap-8">
@@ -46,9 +74,33 @@ export default function Home() {
                     >
                       <SongCard song={song} />
                     </Link>
-                    {categoryTitles[song.categoryIdentifier] && (
-                      <div className="absolute top-2 right-2 text-gray-600 dark:text-gray-400 text-[10px] rounded-md px-1.5 py-[2px] bg-gray-100 dark:bg-gray-800 dark:text-white">
-                        {categoryTitles[song.categoryIdentifier]}
+                    {song.tags && song.tags.length > 0 && (
+                      <div className="absolute top-2 right-2 flex flex-col items-center gap-1.5">
+                        {song.tags.map((tag) => {
+                          const item = legendLookup[tag];
+                          if (!item) return null;
+                          return (
+                            <div key={tag}>
+                              {item.src ? (
+                                <div
+                                  className={`${iconContainerBaseClass} ${item.styles}`}
+                                >
+                                  <img
+                                    src={item.src}
+                                    alt={item.label}
+                                    className={imageClass}
+                                  />
+                                </div>
+                              ) : (
+                                <div
+                                  className={`${textBadgeBaseClass} ${item.styles}`}
+                                >
+                                  {item.text}
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
                       </div>
                     )}
                   </div>
@@ -63,34 +115,6 @@ export default function Home() {
             "If God gave you a talent... Use it."
           </blockquote>
         </div>
-        
-        {/* <Link 
-          href="/archived" 
-          className="text-sm text-gray-500 dark:text-gray-400 underline hover:text-gray-700 dark:hover:text-gray-300 mb-8"
-        >
-          View Archived Songs
-        </Link> */}
-        {/* 
-        <div className="flex flex-wrap gap-2 md:gap-4 justify-center mt-8 text-sm md:text-lg">
-          <Link
-            href="/music"
-            className="border border-gray-500 dark:border-gray-400 rounded-lg px-6 md:px-10 py-3 md:py-5 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-          >
-            Listen to our Music
-          </Link>
-          <Link
-            href="/events"
-            className="border border-gray-500 dark:border-gray-400 rounded-lg px-6 md:px-10 py-3 md:py-5 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-          >
-            Check out our Events
-          </Link>
-          <Link
-            href="/about-us"
-            className="border border-gray-500 dark:border-gray-400 rounded-lg px-6 md:px-10 py-3 md:py-5 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700"
-          >
-            Meet the Crew
-          </Link>
-        </div> */}
       </div>
     </div>
   );

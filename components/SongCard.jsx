@@ -3,7 +3,7 @@ import ImageWithPulse from './ImageWithPulse';
 
 export default function SongCard({ song }) {
   return (
-    <div className="max-w-[300px] md:max-w-full w-full mx-auto min-h-[200px] bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row border hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-100 ease-in-out text-left relative">
+    <div className="max-w-[400px] md:max-w-full w-full mx-auto min-h-[200px] bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row border hover:shadow-2xl transform  transition-all duration-50 dark:hover:bg-gray-700 transition duration-100 ease-in-out text-left relative pr-[50px]">
       <div className="w-full md:w-[180px] h-[300px] md:h-[200px] flex-shrink-0">
         <ImageWithPulse
           src={song.titleImage}
@@ -12,7 +12,7 @@ export default function SongCard({ song }) {
           className="w-full h-full"
         />
       </div>
-      <div className="p-4 flex-1 flex flex-col gap-1 h-full overflow-hidden max-w-[300px]">
+      <div className="p-4 flex-1 flex flex-col gap-1 h-full overflow-hidden max-w-[400px]">
         <h2 className="text-md font-bold dark:text-gray-200 max-w-[140px]">{song.title}</h2>
 
         {song.subTitle && (

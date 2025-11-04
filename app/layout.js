@@ -1,15 +1,15 @@
-import { Inter } from 'next/font/google';
-import './globals.css';
-import { ThemeProvider } from './theme-provider';
-import NavBar from './NavBar';
-import SampleButton from '@/components/SampleButton';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider } from "./theme-provider";
+import NavBar from "./NavBar";
+import SampleButton from "@/components/SampleButton";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Wolf Song Writing',
-  description: 'A website for Writing and Sharing Music',
+  title: "Wolf Song Writing",
+  description: "A website for Writing and Sharing Music",
 };
 
 export default function RootLayout({ children }) {
@@ -18,8 +18,7 @@ export default function RootLayout({ children }) {
       <GoogleAnalytics />
       <ThemeProvider
         attribute="class"
-        defaultTheme="light"
-        enableSystem
+        forcedTheme="light"
         disableTransitionOnChange
       >
         <body className={inter.className}>
@@ -29,10 +28,11 @@ export default function RootLayout({ children }) {
           </main>
           <footer className="flex flex-col items-center justify-center w-full h-24 border-t mt-16 mb-8 pt-20 pb-24 gap-4">
             <p className="px-5 text-center">
-              © {new Date().getFullYear()} Wolf Music Productions. All rights reserved.
+              © {new Date().getFullYear()} Wolf Music Productions. All rights
+              reserved.
             </p>
             <p className="text-sm text-gray-500">
-              Website designed and made by{' '}
+              Website designed and made by{" "}
               <a
                 href="https://jrwolf.netlify.app"
                 target="_blank"

@@ -52,9 +52,9 @@ export default function NavBar() {
             </Button>
           </Link>
         </div>
-        <div className="ml-auto">
+        {/* <div className="ml-auto">
           <ThemeButton />
-        </div>
+        </div> */}
       </div>
       <ul
         className={`flex flex-col gap-4 justify-center items-center p-2 transition-all duration-300 ease-in-out ${

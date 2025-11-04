@@ -1,18 +1,19 @@
-'use client';
-import React, { useRef } from 'react';
-import Share from '@/app/music/[slug]/Share';
-import { DownloadIcon } from 'lucide-react';
+"use client";
+import React, { useRef } from "react";
+import Share from "@/app/music/[slug]/Share";
+import { DownloadIcon } from "lucide-react";
+import { legendItems } from "@/data/legendItems";
 
 export default function SongDetails({ song }) {
   const videoRef = useRef(null);
 
   const handlePlayVideo = () => {
-    videoRef.current.src += '&autoplay=1';
+    videoRef.current.src += "&autoplay=1";
   };
 
   const handleDownload = () => {
-    window.gtag('event', 'audio_download', {
-      event_category: 'Audio',
+    window.gtag("event", "audio_download", {
+      event_category: "Audio",
       event_label: song.title,
       value: song.audio,
     });
@@ -22,14 +23,14 @@ export default function SongDetails({ song }) {
     const parts = lyrics
       .split(/(\*\*.*?\*\*|\*.*?\*|##.*?#.*?##)/g)
       .map((part, index) => {
-        if (part.startsWith('**') && part.endsWith('**')) {
+        if (part.startsWith("**") && part.endsWith("**")) {
           return <strong key={index}>{part.slice(2, -2)}</strong>;
         }
-        if (part.startsWith('*') && part.endsWith('*')) {
+        if (part.startsWith("*") && part.endsWith("*")) {
           return <em key={index}>{part.slice(1, -1)}</em>;
         }
-        if (part.startsWith('##') && part.endsWith('##')) {
-          const [color, text] = part.slice(2, -2).split('#');
+        if (part.startsWith("##") && part.endsWith("##")) {
+          const [color, text] = part.slice(2, -2).split("#");
           return (
             <span key={index} style={{ color }}>
               {text}
@@ -51,10 +52,7 @@ export default function SongDetails({ song }) {
           <div className="max-w-[700px] mx-auto mt-6">
             <div className="flex flex-wrap justify-center space-x-6">
               {song.people.map((person, index) => (
-                <div
-                  key={person.name}
-                  className="inline-flex items-center"
-                >
+                <div key={person.name} className="inline-flex items-center">
                   <span className="font-medium text-gray-900 dark:text-gray-100 text-sm lg:text-base mb-2">
                     {person.name}
                   </span>
@@ -77,6 +75,28 @@ export default function SongDetails({ song }) {
             allowFullScreen
           ></iframe>
         </div>
+
+        {song.tags && song.tags.length > 0 && (
+          <div className="max-w-[700px] mx-auto mb-8 text-center">
+            <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2">
+              {song.tags
+                .map((tag) => legendItems.find((item) => item.key === tag))
+                .filter(Boolean)
+                .map((item, index, array) => (
+                  <React.Fragment key={item.key}>
+                    <span className="text-gray-700 dark:text-gray-300 text-sm font-medium">
+                      {item.label}
+                    </span>
+                    {index < array.length - 1 && (
+                      <span className="text-gray-500 dark:text-gray-400">
+                        |
+                      </span>
+                    )}
+                  </React.Fragment>
+                ))}
+            </div>
+          </div>
+        )}
 
         <div className="fixed bottom-4 right-4 ml-4 sm:bottom-6 sm:right-6 lg:bottom-8 lg:right-8 flex flex-col gap-3 items-end z-50">
           <div className="bg-white/80 dark:bg-black/80 backdrop-blur-sm p-3 rounded-2xl shadow-lg flex gap-3">
