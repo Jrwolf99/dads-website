@@ -26,7 +26,7 @@ export default function Home() {
           {/* todo, feather img here */}
           <Image src="/images/pen.png" alt="Feather" width={20} height={20} />
           <span className="text-gray-700 dark:text-gray-400">
-            All lyrics are 100% human-written by Bill Wolf.
+            All lyrics are written by Bill Wolf.
           </span>
         </p>
 
@@ -34,7 +34,7 @@ export default function Home() {
           {songsWithReal.length > 0 && (
             <div className="mt-8 mb-8 pt-8 border-t border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-center mb-8">
-                Real Lyrics, Real Music
+                Studio Recordings
               </h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
                 {songsWithReal.map((song) => (
@@ -54,7 +54,7 @@ export default function Home() {
           {songsWithoutReal.length > 0 && (
             <div className="mt-12 mb-8 pt-8 border-t border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-center mb-8">
-                Real Lyrics, AI Music
+                Bill's Lyrics, AI Music
               </h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 3xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
                 {songsWithoutReal.map((song) => (
