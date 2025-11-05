@@ -36,7 +36,7 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-center mb-8">
                 Studio Recordings
               </h2>
-              <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 items-center">
                 {songsWithReal.map((song) => (
                   <div key={song.identifier} className="relative w-full">
                     <Link
@@ -56,7 +56,7 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-center mb-8">
                 Bill's Lyrics, AI Music
               </h2>
-              <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 3xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 items-center">
                 {songsWithoutReal.map((song) => (
                   <div key={song.identifier} className="relative w-full">
                     <Link
