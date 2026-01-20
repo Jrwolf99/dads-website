@@ -1,5 +1,89 @@
 [
   {
+    "title": "The Horns of Heaven",
+    "titleImage": "/images/horns.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/_Y84kvgzvYo?si=M6676Ht0zNUUTZui",
+    "identifier": "horns",
+    "tags": ["other", "bills-lyrics"],
+    "lyrics": "A flower blooms… A lilly born\nAn angel's tune …On golden horn…\nThe world is new… The time is morn…\nA gift for you… Safe and warm…\n\nBut prophets tell… The earth will pass…\nHeaven or hell... You must ask…\nBooks foretell… John's was last…\nA last farewell… Then it passed…\n\nTrumpets blow… Drums will pound… It's time to go… All around…\nLong ago… Angels bound… God said so… When trumpets sound…\n\nLoud & true… From heaven's horn…\nAll for you … The earth was born\nBut like the bloom… It has a thorn…\nA horn for you… To let it warn…\n\nTrumpets blow… Drums will pound… It's time to go… All around…\nLong ago… Angels bound… God said so… When trumpets sound…\n\nBless the psalms… And Peter too…\nBless be John… Who says it true…\nBless be Christ… He came for you…\nBless be God…. His time is due…\n\nTrumpets blow… Drums will pound… It's time to go… All around…\nLong ago… Angels bound… God said so… When trumpets sound…\n\nHell will boast… The world will fall…\nThe horns will blow… We are called…\nGod will know… No more wall…\nA time to go… One and all…",
+    "audio": "/music/horns.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "The end of times as we know it."
+  },
+  {
+    "title": "Beer in the Air",
+    "titleImage": "/images/beer_air.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/yPI20e-w_IE?si=x3ys3STeTYvC2WXT",
+    "identifier": "beer_air",
+    "tags": ["other", "bills-lyrics"],
+    "lyrics": "High in the air… Over my head\nThe beer can flew… Nothing was said…\nIt came with a glare… She wanted me dead…\nSomehow I knew… Now a code red…\n\nI opened my mouth... Too many times…\nAnd said with doubt… Dinner was fine…\nBut in truth I feel…. It needed some wine…\nNo big deal… Then rose and shined…\n\nFrom over the left… I felt the shift…\nA tone in the air… She was now pissed…\nA shivering stare…. I saw the rift…\nA can in the air… She let it rip…\n\nFrom under the chair… I dove in fear…\nNot for my head… Her miss was near…\nA prayer instead… My love my dear…\nVery aware….. She had my beer…\n\nOne by one at blazing speed… She fired each one, straight at me…\nOne by one she did the deed… Took her stand to make me see…\nOne by one I held my voice… From under that chair I made that choice…\nOne by one 12 in a pack… Her bullet of choice emptied the rack…\n\nIt's quiet now… She's out of ammo…\nShe missed somehow... I wore my camo…\nWhy and how… I'll never know…\nMy beers all gone… I can go…\n\nThis battles done… It didn't last…\nNo one won… It's in the past…\nBut learned a ton …To hide my ass…\nAnd to never ever ever… Buy beer in glass…",
+    "audio": "/music/beer_air.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "That moment when you realize you've said too much."
+  },
+  {
+    "title": "Winnie The Pooh",
+    "titleImage": "/images/kid.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/R6jjKzfviUk?si=zvvXBPER3A-slPnq",
+    "identifier": "winnie",
+    "tags": ["other", "bills-lyrics"],
+    "lyrics": "A cool wind blows… The sound of leaves…\nEnds the day… Now daddy leads…\nA spooky night…. Bend the trees…\nA shoulder ride… On Halloween…\n\nHow & why… I don't know who…\nDecided you … As Winnie the Pooh…\nYou were shy…. This was new…\nIt all flew by…. You lost a shoe…\n\nNow candy drives…. This strange tradition…\nFill the bag…. Became your mission…\nOn your own…. With no permission…\nYou run & roam… A great magician…\n\nTime flew fast…. As Spider Man\nThen at last… Came Super Man\nThen a flash… A proud young man…\nTo love & laugh… A girl in hand…\n\nSo here I stand that daddy ride…\nFrom years ago you by my side…\nA memory now I hold with pride…\nYour a man time flew by…\n\nNow my job… Is at the door…\nA bowl in hand… Grand dad's chore…\nKinda sad… Like Eeyore…\nBut kinda glad… I look some more…\n\nHere you come… With all your crew\nReady to go... On shoulders new…\nA daddy ride… Was Winnie the Pooh…\nAnd to your side…. Now Tigger too…",
+    "audio": "/music/winnie.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "Time Flies By."
+  },
+  {
+    "title": "All The Hens",
+    "titleImage": "/images/hens.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/0VOG0Cepfp4?si=kQy1PwVjBwkEerpc",
+    "identifier": "hens",
+    "tags": ["other", "bills-lyrics"],
+    "lyrics": "Two girls chatting… Starts this fable…\nThe bar was stocked… Ready and able\nThe talk was steady... Both now ready…\nIt grew to a gal…. No one inhaled…\n\nThe doors burst open... Side by side…\n4 more friends… The noise did rise…\nSix in all… All were gappin…\nMouths wide open… All were yappin…\n\nAll hens cluckin… It was a mugging… No mouths shutting… My ears a hummin…\nA funny kind of sound... Drinks all around... Those hens a cluckin…\n\nThe noise was crippling… No one listening…\nMakin a sound… My senses drowned…\nThen I realized… A super-power\nCluckin and listening… Hour by hour\n\nAll hens cluckin… It was a mugging… No mouths shutting… My ears a hummin…\nA funny kind of sound... Drinks all around... Those hens a cluckin…\n\nHigh heals on & red lipstick\nLooking for a man that just might fit…\nOne for the money two for the show\nThree to get ready and four to go…\n\nAll hens cluckin… It was a mugging… No mouths shutting… My ears a hummin…\nA funny kind of sound... Drinks all around... Those hens a cluckin…",
+    "audio": "/music/hens.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "That moment you realize all the women in the bar, are all talking… AT THE SAME TIME."
+  },
+  {
     "title": "The Preacher Ran",
     "titleImage": "/images/preacher.jpeg",
     "shareLink": "https://www.facebook.com/songwritingwolf",
