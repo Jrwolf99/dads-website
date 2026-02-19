@@ -489,6 +489,28 @@
     "bio": "Baptist War of 1831"
   },
   {
+    "title": "Whistling Past The Graveyard",
+    "titleImage": "/images/whistling.png",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/UX44AtNg8vc?si=_61_r6qOXeY2QIhe",
+    "subTitle": null,
+    "identifier": "whistling-past-the-graveyard",
+    "tags": ["real", "bills-lyrics"],
+    "lyrics": "My shoulder hurts… it feels rusty.\nMy eyes are worse… yeah they must be.\nMy friend's a nurse… she can fix me.\nI'll be all right… she convinced me.\n\nI'm just whistling past the graveyard… just whistling past the graveyard.\nAll is good & rosy with me… all is good & rosy with me.\n\nThat's a bruise… and it will heal.\nThat's a tattoo… no big deal.\nNot those shoes… I can't kneel.\nI'm not confused… is that thing real.\n\nI am just fine… my ships not sinking.\nWhat do you mean… I stopped blinking.\nThat's not wine… I stopped drinking.\nHold on wait… I'm still thinking.\n\nI'm just whistling past the graveyard… just whistling past the graveyard.\nAll is good & rosy with me… all is good & rosy with me.\n\nWho is she… she's my driver.\nShe came… sooner than I'd like her.\nThe car behind me… it was first.\nWait now… that a hearse.\n\nI'm not whistling past the graveyard… I'm not whistling past the graveyard.\nAll is good & rosy with me… so good & rosy with me.",
+    "audio": "/music/whistling-past-the-graveyard.mp3",
+    "people": [
+      {
+        "name": "Sam Freeman",
+        "role": "Vocals/Guitar"
+      },
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      }
+    ],
+    "bio": "Just keep whistling... whatever it is will go away... eventually."
+  },
+  {
     "title": "Beer in the Air",
     "titleImage": "/images/beer_air.png",
     "shareLink": "https://www.facebook.com/songwritingwolf",

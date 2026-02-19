@@ -1,23 +1,26 @@
 import React from "react";
-import ImageWithPulse from "./ImageWithPulse";
 
 export default function SongCard({ song, tags, mini }) {
-  const titleSize = mini ? "text-[10px]" : "text-[13px]";
-  const bodySize = mini ? "text-[9px]" : "text-xs";
-  const tagSize = mini ? "text-[9px]" : "text-[11px]";
+  const titleSize = mini ? "text-[14px]" : "text-[16px]";
+  const bodySize = mini ? "text-[12px]" : "text-sm";
+  const tagSize = mini ? "text-[11px]" : "text-[13px]";
 
   return (
     <div
       className={`w-full ${mini ? "min-h-[120px] xl:max-w-[350px]" : "min-h-[200px]"} mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg flex ${mini ? "flex-row" : "flex-col lg:flex-row"} border hover:shadow-2xl transform transition-all duration-50 dark:hover:bg-gray-700 transition duration-100 ease-in-out text-left relative`}
     >
       <div
-        className={`${mini ? "w-[120px]" : "w-full lg:w-[180px]"} ${mini ? "h-[120px]" : "h-[250px] sm:h-[280px] lg:h-[200px]"} flex-shrink-0 overflow-hidden ${mini ? "rounded-l-lg" : "rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"}`}
+        className={`${mini ? "w-[120px]" : "w-full lg:w-[180px]"} ${mini ? "h-[120px]" : "h-[250px] sm:h-[280px] lg:h-[200px]"} flex-shrink-0 overflow-hidden bg-gray-100 dark:bg-gray-700 relative ${mini ? "rounded-l-lg" : "rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"}`}
       >
-        <ImageWithPulse
+        <img
+          src={song.titleImage}
+          alt=""
+          className={`absolute inset-0 w-full h-full object-cover blur-sm scale-110 ${mini ? "rounded-l-lg" : "rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"}`}
+        />
+        <img
           src={song.titleImage}
           alt={song.title}
-          imageClasses={`object-cover w-full h-full ${mini ? "rounded-l-lg" : "rounded-t-lg lg:rounded-l-lg lg:rounded-r-none"}`}
-          className="w-full h-full"
+          className={`absolute inset-0 w-full h-full object-contain z-10 ${mini ? "rounded-l-lg" : "rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"}`}
         />
       </div>
       {tags && tags.includes("true-story") && (
