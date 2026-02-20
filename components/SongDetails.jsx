@@ -100,7 +100,7 @@ export default function SongDetails({ song }) {
 
         <div className="fixed bottom-4 right-4 ml-4 sm:bottom-6 sm:right-6 lg:bottom-8 lg:right-8 flex flex-col gap-3 items-end z-50">
           <div className="bg-white/80 dark:bg-black/80 backdrop-blur-sm p-3 rounded-2xl shadow-lg flex gap-3">
-            <Share shareLink={song.shareLink} />
+            <Share />
 
             <a
               href={song.audio}
