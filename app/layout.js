@@ -2,8 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./theme-provider";
 import NavBar from "./NavBar";
-import SampleButton from "@/components/SampleButton";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import FacebookButton from "@/components/FacebookButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
               </a>
             </p>
           </footer>
-          <SampleButton />
+          <FacebookButton />
         </body>
       </ThemeProvider>
     </html>
