@@ -593,6 +593,27 @@
       }
     ],
     "bio": "The end of times as we know it."
+  },
+  {
+    "title": "Crosses & Queens",
+    "titleImage": "FILLER",
+    "shareLink": "https://www.facebook.com/songwritingwolf",
+    "videoLink": "https://www.youtube.com/embed/sQ17FI06ZCY?si=bs6aTHx09wO5EuGZ",
+    "identifier": "crosses-queens",
+    "tags": ["other", "bills-lyrics"],
+    "lyrics": "For 5 long years… In castles tall.\nWith pikes & spears… Guarding the walls.\nThe queen appeared… With crosses in halls.\nTo me adhere… Or lose it all.\n\nFor 5 long years… The fires burned.\nFarmers feared… No one learned.\nCrosses & tears… Heaven was blurred.\nThe queen was clear… The pope you serve.\n\nWhen power leads with an iron hand.\nVengeance feeds & takes a stand.\n5 years long this queen burned.\nBut with time gone, lessons learned.\n\nFor 5 long years… Behind their moats.\nThe flames & fears… & deadly smoke.\nHeaven was dear… But a burning hope.\nFanned & seared… By an angry pope.\n\nWhen power leads with an iron hand.\nVengeance feeds & takes a stand.\n5 years long this queen burned.\nBut with time gone, lessons learned.\n\nTime shows… The banner she carried.\nGod knows… The people were wary.\nLong ago… Her name now buried.\nShe was known… \"Bloody Mary\".\n\nWhen power leads with an iron hand.\nVengeance feeds & takes a stand.\n5 years long this queen burned.\nBut with time gone, lessons learned.",
+    "audio": "/music/crosses_queens.mp3",
+    "people": [
+      {
+        "name": "Bill Wolf",
+        "role": "Lyrics"
+      },
+      {
+        "name": "AI",
+        "role": "Music"
+      }
+    ],
+    "bio": "Bloody Mary 1555"
   }
  ]
 
