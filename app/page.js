@@ -6,10 +6,10 @@ import SongCard from "@/components/SongCard";
 export default function Home() {
   const activeSongs = [...songs].reverse().filter((song) => !song.archived);
   const songsWithReal = activeSongs.filter((song) =>
-    song.tags?.includes("real")
+    song.tags?.includes("real"),
   );
   const songsWithoutReal = activeSongs.filter(
-    (song) => !song.tags?.includes("real")
+    (song) => !song.tags?.includes("real"),
   );
 
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         Welcome to Wolf Songwriting
       </h1>
 
-      <div className="flex flex-col text-center items-center w-full px-4 md:px-6 lg:px-8">
+      <div className="flex flex-col text-center items-center w-full">
         <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 dark:text-gray-400">
           Our music, as of today...
         </p>
@@ -56,11 +56,11 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-center mb-8">
                 Bill's Lyrics, AI Music
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 items-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 items-stretch">
                 {songsWithoutReal.map((song) => (
-                  <div key={song.identifier} className="relative w-full">
+                  <div key={song.identifier} className="relative w-full h-full">
                     <Link
-                      className="w-full"
+                      className="w-full h-full block"
                       as={`/music/${song.identifier}`}
                       href={`/music/[slug]`}
                     >

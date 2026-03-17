@@ -7,10 +7,10 @@ export default function SongCard({ song, tags, mini }) {
 
   return (
     <div
-      className={`w-full ${mini ? "min-h-[120px] xl:max-w-[350px]" : "min-h-[200px]"} mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg flex ${mini ? "flex-row" : "flex-col lg:flex-row"} border hover:shadow-2xl transform transition-all duration-50 dark:hover:bg-gray-700 transition duration-100 ease-in-out text-left relative`}
+      className={`w-full h-full ${mini ? "min-h-[120px] xl:max-w-[350px]" : "min-h-[200px]"} mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg flex ${mini ? "flex-row" : "flex-col lg:flex-row"} border hover:shadow-2xl transform transition-all duration-50 dark:hover:bg-gray-700 transition duration-100 ease-in-out text-left relative`}
     >
       <div
-        className={`${mini ? "w-[120px]" : "w-full lg:w-[180px]"} ${mini ? "h-[120px]" : "h-[250px] sm:h-[280px] lg:h-[200px]"} flex-shrink-0 overflow-hidden bg-gray-100 dark:bg-gray-700 relative ${mini ? "rounded-l-lg" : "rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"}`}
+        className={`${mini ? "w-[120px] min-h-[120px] h-full" : "w-full lg:w-[180px] h-[250px] sm:h-[280px] lg:h-[200px]"} flex-shrink-0 overflow-hidden bg-gray-100 dark:bg-gray-700 relative ${mini ? "rounded-l-lg" : "rounded-t-lg lg:rounded-l-lg lg:rounded-t-none"}`}
       >
         <img
           src={song.titleImage}
@@ -51,7 +51,9 @@ export default function SongCard({ song, tags, mini }) {
         )}
 
         {!mini && (
-          <div className={`${bodySize} text-gray-600 dark:text-gray-300 line-clamp-3`}>
+          <div
+            className={`${bodySize} text-gray-600 dark:text-gray-300 line-clamp-3`}
+          >
             {song.people.map((person, index) => (
               <p key={index} className={`${bodySize} mt-[2px]`}>
                 {person.name} {person.role ? `(${person.role})` : ""}
@@ -63,8 +65,6 @@ export default function SongCard({ song, tags, mini }) {
         <p className={`${bodySize} text-gray-600 dark:text-gray-300 mt-1`}>
           {song.bio}
         </p>
-
-     
 
         {tags && tags.includes("true-story") && !mini && (
           <div className="flex lg:hidden flex-wrap items-center gap-2 mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
