@@ -24,9 +24,9 @@ export default function Home() {
         </p>
         <p className="flex items-center gap-2 text-xs sm:text-sm md:text-base lg:text-lg text-gray-700 mt-4">
           {/* todo, feather img here */}
-          <Image src="/images/pen.png" alt="Feather" width={20} height={20} />
-          <span className="text-gray-700 dark:text-gray-400">
-            All lyrics are written by Bill Wolf.
+          {/* <Image src="/images/pen.png" alt="Feather" width={20} height={20} /> */}
+          <span className="text-gray-500 dark:text-gray-400 max-w-[400px] mx-auto text-sm">
+          All lyrics for all songsare written entirely by Bill Wolf, with no AI involvement in the songwriting process. Any use of AI is limited solely to music production and graphics.
           </span>
         </p>
 
