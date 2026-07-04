@@ -26,7 +26,7 @@ export default function Home() {
           {/* todo, feather img here */}
           {/* <Image src="/images/pen.png" alt="Feather" width={20} height={20} /> */}
           <span className="text-gray-500 dark:text-gray-400 max-w-[400px] mx-auto text-sm">
-          All lyrics for all songsare written entirely by Bill Wolf, with no AI involvement in the songwriting process. Any use of AI is limited solely to music production and graphics.
+            ALL Lyrics for these below songs are written by Bill (no AI)
           </span>
         </p>
 
